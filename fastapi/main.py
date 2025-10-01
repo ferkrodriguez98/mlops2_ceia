@@ -6,6 +6,8 @@ from fastapi import FastAPI, Query, HTTPException
 from pydantic import BaseModel, RootModel
 import mlflow
 from mlflow.tracking import MlflowClient
+import strawberry
+from strawberry.fastapi import GraphQLRouter
 
 # =========================
 # Config MLflow / MinIO
@@ -16,7 +18,97 @@ EXPERIMENT_NAME = os.getenv("MODEL_EXPERIMENT", "modelos_optimizados")
 mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)
 client = MlflowClient()
 
+# =========================
+# GraphQL Types
+# =========================
+@strawberry.type
+class ModelInfo:
+    alias: str
+    registered_name: str
+    version: str
+    stage: Optional[str]
+    run_id: str
+    status: Optional[str]
+    source: Optional[str]
+
+@strawberry.type
+class Prediction:
+    alias: str
+    registered_name: str
+    version: str
+    n_samples: int
+    predictions: List[int]
+
+@strawberry.type
+class Health:
+    status: str
+    mlflow: str
+    experiment: str
+
+# =========================
+# GraphQL Resolvers
+# =========================
+@strawberry.type
+class Query:
+    @strawberry.field
+    def health(self) -> Health:
+        return Health(
+            status="ok",
+            mlflow=MLFLOW_TRACKING_URI,
+            experiment=EXPERIMENT_NAME
+        )
+    
+    @strawberry.field
+    def model_info(self, model: str) -> ModelInfo:
+        try:
+            _m, reg, run = _load_model_from_registry(model)
+            return ModelInfo(
+                alias=model,
+                registered_name=reg["registered_name"],
+                version=reg["version"],
+                stage=reg["current_stage"],
+                run_id=reg["run_id"],
+                status=reg["status"],
+                source=reg["source"]
+            )
+        except Exception as e:
+            raise Exception(f"Error getting model info: {e}")
+
+@strawberry.type
+class Mutation:
+    @strawberry.field
+    def predict(self, model: str, data: List[strawberry.scalars.JSON]) -> Prediction:
+        try:
+            pyfunc_model, reg, _run = _load_model_from_registry(model)
+            
+            if not data:
+                raise Exception("Empty data")
+            
+            df = pd.DataFrame(data)
+            
+            try:
+                preds = pyfunc_model.predict(df)
+            except Exception as e:
+                raise Exception(f"Prediction error: {e}")
+            
+            return Prediction(
+                alias=model,
+                registered_name=reg["registered_name"],
+                version=reg["version"],
+                n_samples=len(df),
+                predictions=preds.tolist()
+            )
+        except Exception as e:
+            raise Exception(f"Error in prediction: {e}")
+
+# =========================
+# GraphQL Schema
+# =========================
+schema = strawberry.Schema(query=Query, mutation=Mutation)
+graphql_app = GraphQLRouter(schema)
+
 app = FastAPI(title="CEIA-MLops Model Serving", version="1.0.0")
+app.include_router(graphql_app, prefix="/graphql")
 
 # Simple in-memory cache
 # key -> (pyfunc_model, registry_info_dict, run_info_dict)

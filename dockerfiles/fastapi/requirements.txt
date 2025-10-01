@@ -6,3 +6,4 @@ pandas
 scikit-learn
 lightgbm
 boto3
+strawberry-graphql[fastapi]
