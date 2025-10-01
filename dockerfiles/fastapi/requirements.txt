@@ -1,0 +1,8 @@
+pydantic>=2.0
+fastapi>=0.105
+uvicorn>=0.23
+mlflow
+pandas
+scikit-learn
+lightgbm
+boto3
