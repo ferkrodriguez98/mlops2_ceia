@@ -22,28 +22,16 @@ client = MlflowClient()
 # GraphQL Types
 # =========================
 @strawberry.type
-class ModelInfo:
-    alias: str
-    registered_name: str
-    version: str
-    stage: Optional[str]
-    run_id: str
-    status: Optional[str]
-    source: Optional[str]
-
-@strawberry.type
-class Prediction:
-    alias: str
-    registered_name: str
-    version: str
-    n_samples: int
-    predictions: List[int]
-
-@strawberry.type
 class Health:
     status: str
     mlflow: str
     experiment: str
+    message: str
+
+@strawberry.type
+class ModelList:
+    models: List[str]
+    count: int
 
 # =========================
 # GraphQL Resolvers
@@ -55,56 +43,21 @@ class Query:
         return Health(
             status="ok",
             mlflow=MLFLOW_TRACKING_URI,
-            experiment=EXPERIMENT_NAME
+            experiment=EXPERIMENT_NAME,
+            message="GraphQL endpoint is working!"
         )
     
     @strawberry.field
-    def model_info(self, model: str) -> ModelInfo:
-        try:
-            _m, reg, run = _load_model_from_registry(model)
-            return ModelInfo(
-                alias=model,
-                registered_name=reg["registered_name"],
-                version=reg["version"],
-                stage=reg["current_stage"],
-                run_id=reg["run_id"],
-                status=reg["status"],
-                source=reg["source"]
-            )
-        except Exception as e:
-            raise Exception(f"Error getting model info: {e}")
-
-@strawberry.type
-class Mutation:
-    @strawberry.field
-    def predict(self, model: str, data: List[strawberry.scalars.JSON]) -> Prediction:
-        try:
-            pyfunc_model, reg, _run = _load_model_from_registry(model)
-            
-            if not data:
-                raise Exception("Empty data")
-            
-            df = pd.DataFrame(data)
-            
-            try:
-                preds = pyfunc_model.predict(df)
-            except Exception as e:
-                raise Exception(f"Prediction error: {e}")
-            
-            return Prediction(
-                alias=model,
-                registered_name=reg["registered_name"],
-                version=reg["version"],
-                n_samples=len(df),
-                predictions=preds.tolist()
-            )
-        except Exception as e:
-            raise Exception(f"Error in prediction: {e}")
+    def available_models(self) -> ModelList:
+        return ModelList(
+            models=["knn", "svm", "lightgbm"],
+            count=3
+        )
 
 # =========================
 # GraphQL Schema
 # =========================
-schema = strawberry.Schema(query=Query, mutation=Mutation)
+schema = strawberry.Schema(query=Query)
 graphql_app = GraphQLRouter(schema)
 
 app = FastAPI(title="CEIA-MLops Model Serving", version="1.0.0")
