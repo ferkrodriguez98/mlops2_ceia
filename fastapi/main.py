@@ -1,6 +1,6 @@
 # fastapi/main.py
 import os
-from typing import List, Literal, Optional, Dict, Any, Tuple
+from typing import List, Literal, Optional, Dict, Any, Tuple, Annotated
 import pandas as pd
 from fastapi import FastAPI, Query, HTTPException
 from pydantic import BaseModel, RootModel
@@ -257,7 +257,7 @@ def list_models():
     return out
 
 @app.get("/model-info")
-def model_info(model: Literal["knn", "svm", "lightgbm"] = Query(...)):
+def model_info(model: Annotated[Literal["knn", "svm", "lightgbm"], Query()]):
     """
     Returns registry + run metadata for the latest version of the requested model alias.
     """
@@ -282,7 +282,7 @@ def model_info(model: Literal["knn", "svm", "lightgbm"] = Query(...)):
 @app.post("/predict")
 def predict(
     payload: PredictRequest,
-    model: Literal["knn", "svm", "lightgbm"] = Query(...),
+    model: Annotated[Literal["knn", "svm", "lightgbm"], Query()],
 ):
     """
     Predicts using the latest registered version of the requested model alias.
