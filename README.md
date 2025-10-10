@@ -15,3 +15,6 @@
 - **API REST:** http://localhost:8800
 - **API GraphQL:** http://localhost:8800/graphql
 - **gRPC:** localhost:50051
+
+# Dataset
+https://www.kaggle.com/code/asanchezhernandez/employee-burnout-eda-and-prediction
