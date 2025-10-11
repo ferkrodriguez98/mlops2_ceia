@@ -28,7 +28,7 @@ airflow/plugins/etl/: librería reutilizable con todas las transformaciones de d
 
 fastapi/: servicio de inferencia que expone REST y GraphQL; carga el último modelo registrado en MLflow Model Registry, entrega metadatos, predicciones y permite vaciar la caché local para recargar modelos.
 
-dockerfiles/ y docker-compose.yaml: definen las imágenes personalizadas y la infraestructura local (Postgres, Redis, MinIO, MLflow, Airflow, API). Es fundamental para levantar todo el stack y reproducir el flujo de MLOps end-to-end.
+dockerfiles/ y docker-compose.yaml: definen las imágenes personalizadas y la infraestructura local (Postgres, MinIO, MLflow, Airflow, Fastapi). Es fundamental para levantar todo el stack y reproducir el flujo de MLOps end-to-end.
 
 data/: punto de montaje para el dataset enriquecido original que se sube a MinIO en el arranque del entorno.
 
