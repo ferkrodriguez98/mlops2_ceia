@@ -46,4 +46,6 @@ Reutilización de transformaciones: los helpers en airflow/plugins/etl/etl.py so
 
 Servicio de inferencia desacoplado: FastAPI actúa como consumer del Model Registry, por lo que cualquier modelo nuevo debe cumplir con el mismo esquema de features y registrarse correctamente para estar disponible vía API.
 
-Infraestructura reproducible: docker-compose.yaml describe dependencias (Postgres para Airflow y MLflow, Redis para Celery, MinIO como backend S3). Saber levantar el stack completo es crítico para pruebas y demos.
+Infraestructura reproducible: docker-compose.yaml describe dependencias (Postgres para Airflow y MLflow, MinIO como backend S3). Saber levantar el stack completo es crítico para pruebas y demos.
+
+
