@@ -26,7 +26,7 @@ sys.path.append(os.path.abspath(os.path.join(ROOT, "airflow", "plugins")))
 # print(f"sys.path: {sys.path}")
 
 try:
-    from etl import (
+    from etl.etl import (
         cargar_datos,
         eliminar_columnas,
         eliminar_nulos_columna,
