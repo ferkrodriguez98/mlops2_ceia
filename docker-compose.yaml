@@ -66,6 +66,50 @@ x-airflow-common: &airflow-common
       condition: service_healthy
 
 services:
+
+
+  fake_data_producer:
+    build:
+      context: .
+      dockerfile: dockerfiles/fastapi/Dockerfile
+    command: ["python", "fake_data_producer.py"]
+    depends_on:
+      - redis
+    volumes:
+      - ./fastapi:/app
+      - ./airflow/plugins/etl:/app/etl
+      - ./data:/app/data 
+    environment:
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+    networks:
+      - backend
+
+
+  stream_worker:
+    build:
+      context: .
+      dockerfile: dockerfiles/fastapi/Dockerfile
+    command: ["python", "stream_worker.py"]
+    ports:
+      - "8801:8800"  # HOST:CONTAINER
+    depends_on:
+      - redis
+      
+    volumes:
+      - ./fastapi:/app
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - MLFLOW_TRACKING_URI=http://mlflow:5000
+      - AWS_ACCESS_KEY_ID=minio
+      - AWS_SECRET_ACCESS_KEY=minio123
+      - MLFLOW_S3_ENDPOINT_URL=http://minio:9000
+
+    networks:
+      - backend
+
+
   postgres:
     restart: always
     build: './dockerfiles/postgres'
@@ -195,9 +239,15 @@ services:
     networks:
       - backend
     environment:
-      - AWS_ACCESS_KEY_ID=${MINIO_ACCESS_KEY:-minio}
-      - AWS_SECRET_ACCESS_KEY=${MINIO_SECRET_ACCESS_KEY:-minio123}
-      - MLFLOW_S3_ENDPOINT_URL=http://s3:9000
+      - BACKEND_STORE_URI=postgresql://airflow:airflow@postgres:5432/airflow
+      - MLFLOW_S3_ENDPOINT_URL=http://minio:9000
+      - AWS_ACCESS_KEY_ID=minio
+      - AWS_SECRET_ACCESS_KEY=minio123
+      - ARTIFACT_ROOT=s3://mlflow/
+
+     # - AWS_ACCESS_KEY_ID=${MINIO_ACCESS_KEY:-minio}
+     # - AWS_SECRET_ACCESS_KEY=${MINIO_SECRET_ACCESS_KEY:-minio123}
+     # - MLFLOW_S3_ENDPOINT_URL=http://s3:9000
     command: >
       mlflow server 
       --backend-store-uri postgresql://${PG_USER:-airflow}:${PG_PASSWORD:-airflow}@postgres:5432/mlflow_db

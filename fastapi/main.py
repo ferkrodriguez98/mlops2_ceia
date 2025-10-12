@@ -337,3 +337,107 @@ def home():
         "status": "ok",
         "health_endpoint": "/health",
     }
+
+
+############################### REDIS ###############
+from fastapi import FastAPI, Query
+from typing import Literal, Annotated, Optional, List
+from pydantic import BaseModel
+import redis, json, os
+
+
+# --------------------------------------------------------
+# 1. FastAPI config
+# --------------------------------------------------------
+
+
+# --------------------------------------------------------
+# 2. Estructuras de entrada (igual que en /predict)
+# --------------------------------------------------------
+class Record(BaseModel):
+    Designation: float
+    Resource_Allocation: float
+    Mental_Fatigue_Score: float
+    Work_Hours_per_Week: float
+    Sleep_Hours: float
+    Work_Life_Balance_Score: float
+    Manager_Support_Score: float
+    Deadline_Pressure_Score: float
+    Team_Size: float
+    Recognition_Frequency: float
+    Gender_Male: float
+    Company_Type_Service: float
+    WFH_Setup_Available_Yes: float
+
+
+class PredictRequest(BaseModel):
+    data: List[Record]
+    columns: Optional[List[str]] = None
+
+    class Config:
+        json_schema_extra = {
+            "example": {
+                "data": [
+                    {
+                        "Designation": 1.59925700555706,
+                        "Resource_Allocation": 1.72360595085135,
+                        "Mental_Fatigue_Score": 1.1975966401291,
+                        "Work_Hours_per_Week": 1.34773260311199,
+                        "Sleep_Hours": -0.690848719758177,
+                        "Work_Life_Balance_Score": -1.09930302168995,
+                        "Manager_Support_Score": 0.143091693240234,
+                        "Deadline_Pressure_Score": 0.381886631952482,
+                        "Team_Size": 0.80117462123456,
+                        "Recognition_Frequency": -1.02507599444839,
+                        "Gender_Male": 1.04674470947004,
+                        "Company_Type_Service": 0.724246735120935,
+                        "WFH_Setup_Available_Yes": -1.08442176566419,
+                    }
+                ],
+                "columns": [
+                    "Designation",
+                    "Resource_Allocation",
+                    "Mental_Fatigue_Score",
+                    "Work_Hours_per_Week",
+                    "Sleep_Hours",
+                    "Work_Life_Balance_Score",
+                    "Manager_Support_Score",
+                    "Deadline_Pressure_Score",
+                    "Team_Size",
+                    "Recognition_Frequency",
+                    "Gender_Male",
+                    "Company_Type_Service",
+                    "WFH_Setup_Available_Yes",
+                ],
+            }
+        }
+
+# --------------------------------------------------------
+# 3. Conexión a Redis
+# --------------------------------------------------------
+r = redis.Redis(
+    host=os.getenv("REDIS_HOST", "mlops2_ceia-redis-1"),
+    port=int(os.getenv("REDIS_PORT", 6379)),
+    decode_responses=True
+)
+
+# --------------------------------------------------------
+# 4. Nuevo endpoint de streaming
+# --------------------------------------------------------
+
+
+@app.post("/predict_stream")
+def predict_stream(
+    payload: PredictRequest,
+    model: Annotated[Literal["knn", "svm", "lightgbm"], Query()] = "svm"
+):
+    """Encola un payload complejo en Redis Stream para procesamiento asincrónico."""
+    redis_data = {
+        "payload": payload.model_dump(),
+        "model": model
+    }
+
+    r.xadd("mlops_stream", {"data": json.dumps(redis_data)})
+    return {"status": "queued", "stream": "mlops_stream", "model": model}
+
+
