@@ -1,9 +1,9 @@
 # fastapi/main.py
 import os
-from typing import List, Literal, Optional, Dict, Any, Tuple, Annotated
+from typing import List, Literal, Optional, Dict, Any, Tuple
 import pandas as pd
 from fastapi import FastAPI, Query, HTTPException
-from pydantic import BaseModel, RootModel
+from pydantic import BaseModel, RootModel, ConfigDict
 import mlflow
 from mlflow.tracking import MlflowClient
 import strawberry
@@ -37,7 +37,7 @@ class ModelList:
 # GraphQL Resolvers
 # =========================
 @strawberry.type
-class Query:
+class GraphQLQuery:
     @strawberry.field
     def health(self) -> Health:
         return Health(
@@ -57,7 +57,7 @@ class Query:
 # =========================
 # GraphQL Schema
 # =========================
-schema = strawberry.Schema(query=Query)
+schema = strawberry.Schema(query=GraphQLQuery)
 graphql_app = GraphQLRouter(schema)
 
 app = FastAPI(title="CEIA-MLops Model Serving", version="1.0.0")
@@ -83,6 +83,45 @@ class Record(RootModel):
 class PredictRequest(BaseModel):
     data: List[Record]
     columns: Optional[List[str]] = None  # optional: enforce column order/selection
+
+    model_config = ConfigDict(
+        json_schema_extra={
+            "example": {
+                "data": [
+                    {
+                        "Designation": 1.59925700555706,
+                        "Resource Allocation": 1.72360595085135,
+                        "Mental Fatigue Score": 1.1975966401291,
+                        "Work Hours per Week": 1.34773260311199,
+                        "Sleep Hours": -0.690848719758177,
+                        "Work-Life Balance Score": -1.09930302168995,
+                        "Manager Support Score": 0.143091693240234,
+                        "Deadline Pressure Score": 0.381886631952482,
+                        "Team Size": 0.80117462123456,
+                        "Recognition Frequency": -1.02507599444839,
+                        "Gender_Male": 1.04674470947004,
+                        "Company Type_Service": 0.724246735120935,
+                        "WFH Setup Available_Yes": -1.08442176566419,
+                    }
+                ],
+                "columns": [
+                    "Designation",
+                    "Resource Allocation",
+                    "Mental Fatigue Score",
+                    "Work Hours per Week",
+                    "Sleep Hours",
+                    "Work-Life Balance Score",
+                    "Manager Support Score",
+                    "Deadline Pressure Score",
+                    "Team Size",
+                    "Recognition Frequency",
+                    "Gender_Male",
+                    "Company Type_Service",
+                    "WFH Setup Available_Yes",
+                ],
+            }
+        }
+    )
 
 # =========================
 # Helpers MLflow
@@ -170,57 +209,6 @@ def _load_model_from_registry(alias: str):
     MODEL_CACHE[cache_key] = (pyfunc_model, registry_info, run_info)
     return MODEL_CACHE[cache_key]
 
-#==========
-# Clases para los endpoints 
-#==========
-class Record(RootModel):
-    root: dict
-
-class PredictRequest(BaseModel):
-    data: List[Record]
-    columns: Optional[List[str]] = None
-
-    class Config:
-        json_schema_extra = {
-            "example": {
-                "data": [
-                    {
-                        "Designation": 1.59925700555706,
-                        "Resource Allocation": 1.72360595085135,
-                        "Mental Fatigue Score": 1.1975966401291,
-                        "Work Hours per Week": 1.34773260311199,
-                        "Sleep Hours": -0.690848719758177,
-                        "Work-Life Balance Score": -1.09930302168995,
-                        "Manager Support Score": 0.143091693240234,
-                        "Deadline Pressure Score": 0.381886631952482,
-                        "Team Size": 0.80117462123456,
-                        "Recognition Frequency": -1.02507599444839,
-                        "Gender_Male": 1.04674470947004,
-                        "Company Type_Service": 0.724246735120935,
-                        "WFH Setup Available_Yes": -1.08442176566419,
-                    }
-                ],
-                "columns": [
-                    "Designation",
-                    "Resource Allocation",
-                    "Mental Fatigue Score",
-                    "Work Hours per Week",
-                    "Sleep Hours",
-                    "Work-Life Balance Score",
-                    "Manager Support Score",
-                    "Deadline Pressure Score",
-                    "Team Size",
-                    "Recognition Frequency",
-                    "Gender_Male",
-                    "Company Type_Service",
-                    "WFH Setup Available_Yes",
-                ],
-            }
-        }
-        
-
-
-
 # ==========
 # Endpoints
 # ==========
@@ -256,8 +244,14 @@ def list_models():
         )
     return out
 
+ModelAlias = Literal["knn", "svm", "lightgbm"]
+model_query = Query(
+    ..., description="Model alias. Available values: knn, svm, lightgbm."
+)
+
+
 @app.get("/model-info")
-def model_info(model: Annotated[Literal["knn", "svm", "lightgbm"], Query()]):
+def model_info(model: ModelAlias = model_query):
     """
     Returns registry + run metadata for the latest version of the requested model alias.
     """
@@ -282,7 +276,7 @@ def model_info(model: Annotated[Literal["knn", "svm", "lightgbm"], Query()]):
 @app.post("/predict")
 def predict(
     payload: PredictRequest,
-    model: Annotated[Literal["knn", "svm", "lightgbm"], Query()],
+    model: ModelAlias = model_query,
 ):
     """
     Predicts using the latest registered version of the requested model alias.
