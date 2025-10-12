@@ -293,18 +293,23 @@ def predict(
     except Exception as e:
         raise HTTPException(status_code=400, detail=str(e))
 
+    # Extrae las filas de prueba del payload
     rows = [r.root for r in payload.data]
+
+    # Valida que las filas no estén vacías
     if not rows:
         raise HTTPException(status_code=400, detail="Payload vacío.")
 
-    df = pd.DataFrame(rows)
+    df = pd.DataFrame(rows) # Convierte en DataFrame
 
+    # Si se especifican columnas, valida que existan y reordena
     if payload.columns:
         missing = [c for c in payload.columns if c not in df.columns]
         if missing:
             raise HTTPException(status_code=400, detail=f"Faltan columnas: {missing}")
         df = df[payload.columns]
 
+    # Realiza la predicción
     try:
         preds = pyfunc_model.predict(df)
     except Exception as e:
@@ -312,7 +317,7 @@ def predict(
             status_code=400,
             detail=f"Error al predecir (¿features procesadas igual que en entrenamiento?): {e}",
         )
-
+    # Devuelve resultados
     return {
         "alias": model,
         "registered_name": reg["registered_name"],
