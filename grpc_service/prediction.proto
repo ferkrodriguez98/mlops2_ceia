@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+package prediction;
+
+message FeatureVector {
+  map<string, double> values = 1;
+}
+
+message PredictRequest {
+  string model_alias = 1;
+  repeated FeatureVector instances = 2;
+}
+
+message Prediction {
+  int32 predicted_class = 1;
+}
+
+message PredictResponse {
+  string alias = 1;
+  string registered_name = 2;
+  string version = 3;
+  repeated Prediction predictions = 4;
+}
+
+message StreamPredictRequest {
+  string model_alias = 1;
+  FeatureVector instance = 2;
+}
+
+message StreamPredictResponse {
+  string alias = 1;
+  string registered_name = 2;
+  string version = 3;
+  Prediction prediction = 4;
+}
+
+service PredictionService {
+  rpc Predict(PredictRequest) returns (PredictResponse);
+  rpc PredictStream(stream StreamPredictRequest) returns (stream StreamPredictResponse);
+}
