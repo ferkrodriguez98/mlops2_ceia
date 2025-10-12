@@ -6788,3 +6788,1013 @@
 [2025-10-12T21:09:50.661+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:09:50.660+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2025-10-12T21:09:50.674+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:09:50.674+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
 [2025-10-12T21:09:50.695+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.612 seconds
+[2025-10-12T21:10:21.056+0000] {processor.py:161} INFO - Started process (PID=14900) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:10:21.059+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:10:21.061+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:10:21.060+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:10:22.101+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:10:22.101+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:10:22.102+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:10:22.102+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-w5i6kuiq because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:10:22.252+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:10:22.252+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:10:22.616+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:10:22.644+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:10:22.643+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:10:22.654+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:10:22.654+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:10:22.675+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.625 seconds
+[2025-10-12T21:10:52.813+0000] {processor.py:161} INFO - Started process (PID=14928) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:10:52.814+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:10:52.815+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:10:52.814+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:10:53.840+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:10:53.840+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:10:53.841+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:10:53.841+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-hjuxcyfx because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:10:53.994+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:10:53.994+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:10:54.330+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:10:54.356+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:10:54.355+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:10:54.367+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:10:54.367+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:10:54.389+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.583 seconds
+[2025-10-12T21:11:24.997+0000] {processor.py:161} INFO - Started process (PID=14950) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:11:25.000+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:11:25.001+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:11:25.000+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:11:26.001+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:11:26.000+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:11:26.002+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:11:26.002+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-yqahdqgg because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:11:26.159+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:11:26.159+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:11:26.512+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:11:26.541+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:11:26.541+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:11:26.552+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:11:26.552+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:11:26.573+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.583 seconds
+[2025-10-12T21:11:56.668+0000] {processor.py:161} INFO - Started process (PID=14978) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:11:56.669+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:11:56.670+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:11:56.669+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:11:57.714+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:11:57.713+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:11:57.722+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:11:57.721+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-2i4o6i6e because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:11:57.879+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:11:57.879+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:11:58.242+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:11:58.268+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:11:58.267+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:11:58.280+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:11:58.279+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:11:58.306+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.646 seconds
+[2025-10-12T21:12:28.692+0000] {processor.py:161} INFO - Started process (PID=14999) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:12:28.700+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:12:28.701+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:12:28.700+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:12:29.721+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:12:29.721+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:12:29.722+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:12:29.722+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-qzr6bbu6 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:12:29.878+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:12:29.878+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:12:30.215+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:12:30.244+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:12:30.241+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:12:30.256+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:12:30.255+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:12:30.278+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.592 seconds
+[2025-10-12T21:13:00.633+0000] {processor.py:161} INFO - Started process (PID=15028) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:13:00.641+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:13:00.641+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:13:00.641+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:13:01.684+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:13:01.684+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:13:01.685+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:13:01.685+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-ll1tb2m7 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:13:01.845+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:13:01.844+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:13:02.208+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:13:02.235+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:13:02.234+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:13:02.247+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:13:02.247+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:13:02.267+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.640 seconds
+[2025-10-12T21:13:32.733+0000] {processor.py:161} INFO - Started process (PID=15049) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:13:32.734+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:13:32.735+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:13:32.735+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:13:33.746+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:13:33.746+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:13:33.747+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:13:33.747+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-pru9mc7h because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:13:33.906+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:13:33.905+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:13:34.252+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:13:34.277+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:13:34.276+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:13:34.290+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:13:34.290+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:13:34.314+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.589 seconds
+[2025-10-12T21:14:04.692+0000] {processor.py:161} INFO - Started process (PID=15076) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:14:04.695+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:14:04.696+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:14:04.695+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:14:05.744+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:14:05.743+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:14:05.744+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:14:05.744+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-5cipikn1 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:14:05.899+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:14:05.899+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:14:06.263+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:14:06.291+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:14:06.291+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:14:06.303+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:14:06.302+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:14:06.325+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.640 seconds
+[2025-10-12T21:14:37.150+0000] {processor.py:161} INFO - Started process (PID=15097) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:14:37.158+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:14:37.159+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:14:37.159+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:14:38.173+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:14:38.173+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:14:38.174+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:14:38.174+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-btwaq613 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:14:38.325+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:14:38.324+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:14:38.669+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:14:38.696+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:14:38.695+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:14:38.707+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:14:38.706+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:14:38.728+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.586 seconds
+[2025-10-12T21:15:09.088+0000] {processor.py:161} INFO - Started process (PID=15126) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:15:09.089+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:15:09.090+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:15:09.089+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:15:10.116+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:15:10.115+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:15:10.117+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:15:10.116+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-rbbpucev because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:15:10.272+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:15:10.271+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:15:10.624+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:15:10.653+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:15:10.652+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:15:10.664+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:15:10.664+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:15:10.686+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.605 seconds
+[2025-10-12T21:15:41.152+0000] {processor.py:161} INFO - Started process (PID=15148) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:15:41.154+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:15:41.155+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:15:41.155+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:15:42.185+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:15:42.184+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:15:42.186+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:15:42.186+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-yiq36l3o because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:15:42.333+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:15:42.333+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:15:42.672+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:15:42.694+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:15:42.694+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:15:42.704+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:15:42.704+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:15:42.726+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.581 seconds
+[2025-10-12T21:16:13.355+0000] {processor.py:161} INFO - Started process (PID=15177) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:16:13.356+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:16:13.357+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:16:13.357+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:16:14.382+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:16:14.382+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:16:14.389+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:16:14.388+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-b266353m because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:16:14.543+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:16:14.543+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:16:14.906+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:16:14.940+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:16:14.939+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:16:14.953+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:16:14.953+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:16:14.977+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.628 seconds
+[2025-10-12T21:16:45.520+0000] {processor.py:161} INFO - Started process (PID=15198) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:16:45.523+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:16:45.524+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:16:45.523+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:16:46.538+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:16:46.538+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:16:46.544+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:16:46.543+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-xclwg5ts because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:16:46.721+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:16:46.720+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:16:47.077+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:16:47.105+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:16:47.104+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:16:47.117+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:16:47.117+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:16:47.138+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.625 seconds
+[2025-10-12T21:17:17.357+0000] {processor.py:161} INFO - Started process (PID=15227) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:17:17.358+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:17:17.359+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:17:17.358+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:17:18.406+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:17:18.406+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:17:18.407+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:17:18.407+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-hcmkm_cq because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:17:18.560+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:17:18.560+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:17:18.918+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:17:18.948+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:17:18.947+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:17:18.960+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:17:18.959+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:17:18.981+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.631 seconds
+[2025-10-12T21:17:49.062+0000] {processor.py:161} INFO - Started process (PID=15251) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:17:49.065+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:17:49.066+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:17:49.065+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:17:50.096+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:17:50.096+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:17:50.097+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:17:50.097+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-n7b3nn10 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:17:50.251+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:17:50.250+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:17:50.599+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:17:50.626+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:17:50.625+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:17:50.641+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:17:50.640+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:17:50.665+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.610 seconds
+[2025-10-12T21:18:21.221+0000] {processor.py:161} INFO - Started process (PID=15279) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:18:21.224+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:18:21.225+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:18:21.224+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:18:22.242+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:18:22.242+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:18:22.243+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:18:22.243+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-ymyqq9ai because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:18:22.394+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:18:22.393+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:18:22.748+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:18:22.775+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:18:22.774+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:18:22.785+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:18:22.785+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:18:22.804+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.590 seconds
+[2025-10-12T21:18:53.195+0000] {processor.py:161} INFO - Started process (PID=15307) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:18:53.196+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:18:53.196+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:18:53.196+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:18:54.220+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:18:54.220+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:18:54.221+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:18:54.221+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-o1ux1o7m because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:18:54.374+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:18:54.373+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:18:54.734+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:18:54.757+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:18:54.756+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:18:54.767+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:18:54.767+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:18:54.790+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.601 seconds
+[2025-10-12T21:19:25.037+0000] {processor.py:161} INFO - Started process (PID=15328) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:19:25.039+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:19:25.041+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:19:25.040+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:19:26.041+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:19:26.041+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:19:26.042+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:19:26.042+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-ixhn70gd because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:19:26.194+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:19:26.194+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:19:26.529+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:19:26.556+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:19:26.555+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:19:26.567+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:19:26.566+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:19:26.588+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.558 seconds
+[2025-10-12T21:19:57.073+0000] {processor.py:161} INFO - Started process (PID=15356) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:19:57.074+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:19:57.074+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:19:57.074+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:19:58.141+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:19:58.140+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:19:58.144+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:19:58.143+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-btw009p0 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:19:58.296+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:19:58.296+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:19:58.653+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:19:58.679+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:19:58.679+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:19:58.690+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:19:58.690+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:19:58.709+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.643 seconds
+[2025-10-12T21:20:28.878+0000] {processor.py:161} INFO - Started process (PID=15377) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:20:28.881+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:20:28.882+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:20:28.882+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:20:29.904+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:20:29.904+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:20:29.905+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:20:29.904+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-trb6a650 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:20:30.057+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:20:30.056+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:20:30.405+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:20:30.433+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:20:30.433+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:20:30.444+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:20:30.444+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:20:30.469+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.598 seconds
+[2025-10-12T21:21:00.865+0000] {processor.py:161} INFO - Started process (PID=15406) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:21:00.868+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:21:00.869+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:21:00.869+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:21:01.977+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:21:01.977+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:21:01.978+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:21:01.978+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-4hmhipm7 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:21:02.137+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:21:02.136+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:21:02.520+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:21:02.547+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:21:02.546+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:21:02.560+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:21:02.559+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:21:02.584+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.726 seconds
+[2025-10-12T21:21:33.483+0000] {processor.py:161} INFO - Started process (PID=15428) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:21:33.484+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:21:33.485+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:21:33.484+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:21:34.546+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:21:34.546+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:21:34.547+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:21:34.547+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-fm1c7i16 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:21:34.701+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:21:34.701+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:21:35.065+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:21:35.094+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:21:35.094+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:21:35.107+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:21:35.107+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:21:35.133+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.657 seconds
+[2025-10-12T21:22:05.518+0000] {processor.py:161} INFO - Started process (PID=15456) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:22:05.518+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:22:05.519+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:22:05.519+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:22:06.539+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:22:06.539+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:22:06.542+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:22:06.542+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-13wokxgp because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:22:06.692+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:22:06.691+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:22:07.047+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:22:07.074+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:22:07.073+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:22:07.087+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:22:07.086+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:22:07.113+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.602 seconds
+[2025-10-12T21:22:37.177+0000] {processor.py:161} INFO - Started process (PID=15477) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:22:37.177+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:22:37.178+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:22:37.178+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:22:38.203+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:22:38.202+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:22:38.203+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:22:38.203+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-1y6epttr because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:22:38.354+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:22:38.353+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:22:38.709+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:22:38.740+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:22:38.739+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:22:38.752+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:22:38.751+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:22:38.774+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.605 seconds
+[2025-10-12T21:23:09.252+0000] {processor.py:161} INFO - Started process (PID=15505) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:23:09.268+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:23:09.270+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:23:09.269+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:23:10.375+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:23:10.375+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:23:10.378+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:23:10.378+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-9dkuatg0 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:23:10.531+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:23:10.531+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:23:10.886+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:23:10.913+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:23:10.912+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:23:10.928+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:23:10.928+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:23:10.953+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.708 seconds
+[2025-10-12T21:23:41.387+0000] {processor.py:161} INFO - Started process (PID=15527) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:23:41.388+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:23:41.389+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:23:41.388+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:23:42.449+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:23:42.448+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:23:42.449+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:23:42.449+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-7c8b8x2m because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:23:42.602+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:23:42.602+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:23:42.966+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:23:42.993+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:23:42.992+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:23:43.004+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:23:43.004+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:23:43.022+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.641 seconds
+[2025-10-12T21:24:13.288+0000] {processor.py:161} INFO - Started process (PID=15555) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:24:13.289+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:24:13.290+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:24:13.290+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:24:14.326+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:24:14.326+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:24:14.329+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:24:14.329+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-i1_5gmpx because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:24:14.476+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:24:14.476+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:24:14.824+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:24:14.848+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:24:14.847+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:24:14.857+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:24:14.857+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:24:14.876+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.594 seconds
+[2025-10-12T21:24:44.941+0000] {processor.py:161} INFO - Started process (PID=15576) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:24:44.943+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:24:44.944+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:24:44.944+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:24:45.987+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:24:45.987+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:24:45.988+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:24:45.988+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-gsaemcbh because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:24:46.138+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:24:46.137+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:24:46.497+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:24:46.528+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:24:46.528+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:24:46.541+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:24:46.540+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:24:46.566+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.633 seconds
+[2025-10-12T21:25:16.703+0000] {processor.py:161} INFO - Started process (PID=15604) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:25:16.706+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:25:16.708+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:25:16.707+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:25:17.756+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:25:17.756+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:25:17.757+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:25:17.757+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-438guff5 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:25:17.917+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:25:17.917+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:25:18.283+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:25:18.308+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:25:18.308+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:25:18.319+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:25:18.318+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:25:18.341+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.644 seconds
+[2025-10-12T21:25:48.756+0000] {processor.py:161} INFO - Started process (PID=15625) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:25:48.757+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:25:48.758+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:25:48.757+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:25:49.802+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:25:49.802+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:25:49.803+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:25:49.803+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-a956rdx8 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:25:49.957+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:25:49.956+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:25:50.324+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:25:50.352+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:25:50.351+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:25:50.365+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:25:50.365+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:25:50.387+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.638 seconds
+[2025-10-12T21:26:20.540+0000] {processor.py:161} INFO - Started process (PID=15652) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:26:20.548+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:26:20.549+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:26:20.549+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:26:21.598+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:26:21.598+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:26:21.599+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:26:21.599+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-orcdqh25 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:26:21.752+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:26:21.751+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:26:22.106+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:26:22.136+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:26:22.135+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:26:22.147+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:26:22.147+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:26:22.172+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.639 seconds
+[2025-10-12T21:26:52.645+0000] {processor.py:161} INFO - Started process (PID=15673) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:26:52.647+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:26:52.648+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:26:52.648+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:26:53.650+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:26:53.649+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:26:53.650+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:26:53.650+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-c3j4f1zh because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:26:53.803+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:26:53.803+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:26:54.166+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:26:54.194+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:26:54.193+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:26:54.204+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:26:54.204+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:26:54.224+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.585 seconds
+[2025-10-12T21:27:24.591+0000] {processor.py:161} INFO - Started process (PID=15701) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:27:24.593+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:27:24.594+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:27:24.594+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:27:25.660+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:27:25.659+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:27:25.660+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:27:25.660+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-vthnh96x because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:27:25.807+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:27:25.807+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:27:26.155+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:27:26.180+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:27:26.179+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:27:26.190+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:27:26.190+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:27:26.208+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.623 seconds
+[2025-10-12T21:27:56.297+0000] {processor.py:161} INFO - Started process (PID=15722) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:27:56.298+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:27:56.299+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:27:56.299+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:27:57.336+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:27:57.335+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:27:57.337+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:27:57.336+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-ud6c5sya because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:27:57.489+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:27:57.489+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:27:57.840+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:27:57.865+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:27:57.865+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:27:57.878+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:27:57.878+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:27:57.901+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.610 seconds
+[2025-10-12T21:28:28.542+0000] {processor.py:161} INFO - Started process (PID=15750) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:28:28.545+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:28:28.546+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:28:28.545+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:28:29.572+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:28:29.571+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:28:29.573+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:28:29.572+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-fv7mb0ge because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:28:29.730+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:28:29.729+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:28:30.085+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:28:30.112+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:28:30.111+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:28:30.122+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:28:30.122+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:28:30.141+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.607 seconds
+[2025-10-12T21:29:00.478+0000] {processor.py:161} INFO - Started process (PID=15771) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:29:00.481+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:29:00.482+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:29:00.481+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:29:01.484+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:29:01.483+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:29:01.484+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:29:01.484+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-_hop055t because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:29:01.635+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:29:01.635+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:29:01.997+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:29:02.022+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:29:02.022+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:29:02.033+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:29:02.033+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:29:02.054+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.584 seconds
+[2025-10-12T21:29:32.431+0000] {processor.py:161} INFO - Started process (PID=15800) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:29:32.434+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:29:32.435+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:29:32.435+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:29:33.430+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:29:33.430+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:29:33.431+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:29:33.431+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-cgcmk59j because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:29:33.575+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:29:33.574+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:29:33.918+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:29:33.944+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:29:33.944+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:29:33.956+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:29:33.955+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:29:33.981+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.556 seconds
+[2025-10-12T21:30:04.395+0000] {processor.py:161} INFO - Started process (PID=15822) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:30:04.399+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:30:04.401+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:30:04.400+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:30:06.383+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:30:06.383+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:30:06.384+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:30:06.384+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-g2r1asyr because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:30:06.600+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:30:06.600+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:30:07.191+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:30:07.242+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:30:07.242+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:30:07.267+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:30:07.267+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:30:07.302+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 2.929 seconds
+[2025-10-12T21:30:37.916+0000] {processor.py:161} INFO - Started process (PID=15850) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:30:37.921+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:30:37.925+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:30:37.923+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:30:40.147+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:30:40.147+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:30:40.150+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:30:40.150+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-gm82fp78 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:30:40.538+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:30:40.537+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:30:41.374+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:30:41.436+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:30:41.432+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:30:41.466+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:30:41.465+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:30:41.496+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 3.603 seconds
+[2025-10-12T21:31:11.757+0000] {processor.py:161} INFO - Started process (PID=15872) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:31:11.760+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:31:11.763+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:31:11.762+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:31:14.044+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:31:14.044+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:31:14.048+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:31:14.047+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-zdg6_485 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:31:14.232+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:31:14.231+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:31:14.884+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:31:14.951+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:31:14.950+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:31:14.979+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:31:14.979+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:31:15.007+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 3.263 seconds
+[2025-10-12T21:31:45.413+0000] {processor.py:161} INFO - Started process (PID=15899) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:31:45.414+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:31:45.415+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:31:45.415+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:31:46.425+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:31:46.424+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:31:46.427+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:31:46.427+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-i5seflfm because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:31:46.580+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:31:46.580+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:31:46.924+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:31:46.951+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:31:46.949+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:31:46.964+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:31:46.963+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:31:46.987+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.581 seconds
+[2025-10-12T21:32:17.519+0000] {processor.py:161} INFO - Started process (PID=15920) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:32:17.519+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:32:17.520+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:32:17.520+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:32:18.781+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:32:18.781+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:32:18.782+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:32:18.782+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-y6il9b7q because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:32:18.939+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:32:18.938+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:32:19.397+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:32:19.437+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:32:19.437+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:32:19.456+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:32:19.456+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:32:19.482+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.970 seconds
+[2025-10-12T21:32:49.840+0000] {processor.py:161} INFO - Started process (PID=15947) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:32:49.843+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:32:49.843+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:32:49.843+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:32:50.910+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:32:50.910+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:32:50.911+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:32:50.911+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-xj99q_mj because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:32:51.074+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:32:51.073+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:32:51.416+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:32:51.443+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:32:51.441+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:32:51.453+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:32:51.453+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:32:51.476+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.643 seconds
+[2025-10-12T21:33:21.541+0000] {processor.py:161} INFO - Started process (PID=15968) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:33:21.544+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:33:21.545+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:33:21.544+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:33:22.576+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:33:22.576+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:33:22.579+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:33:22.578+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-0wg5lupa because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:33:22.737+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:33:22.736+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:33:23.133+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:33:23.170+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:33:23.169+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:33:23.189+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:33:23.189+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:33:23.213+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.678 seconds
+[2025-10-12T21:33:53.307+0000] {processor.py:161} INFO - Started process (PID=15996) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:33:53.310+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:33:53.311+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:33:53.310+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:33:54.340+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:33:54.339+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:33:54.352+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:33:54.351+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-hdygorqi because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:33:54.518+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:33:54.518+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:33:54.872+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:33:54.898+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:33:54.897+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:33:54.914+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:33:54.913+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:33:54.934+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.633 seconds
+[2025-10-12T21:34:25.325+0000] {processor.py:161} INFO - Started process (PID=16017) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:34:25.327+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:34:25.328+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:34:25.328+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:34:26.368+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:34:26.368+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:34:26.371+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:34:26.370+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-uz62i7a8 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:34:26.544+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:34:26.543+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:34:26.916+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:34:26.959+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:34:26.958+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:34:26.979+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:34:26.979+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:34:27.011+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.693 seconds
+[2025-10-12T21:34:57.339+0000] {processor.py:161} INFO - Started process (PID=16045) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:34:57.342+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:34:57.344+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:34:57.343+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:34:58.418+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:34:58.417+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:34:58.420+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:34:58.420+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-8z7581rn because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:34:58.575+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:34:58.574+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:34:58.943+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:34:58.973+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:34:58.972+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:34:58.987+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:34:58.987+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:34:59.009+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.678 seconds
+[2025-10-12T21:35:29.381+0000] {processor.py:161} INFO - Started process (PID=16066) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:35:29.383+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:35:29.384+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:35:29.384+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:35:30.417+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:35:30.417+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:35:30.419+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:35:30.419+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-5g12tqbx because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:35:30.576+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:35:30.576+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:35:30.944+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:35:30.973+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:35:30.970+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:35:30.986+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:35:30.985+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:35:31.011+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.637 seconds
+[2025-10-12T21:36:01.104+0000] {processor.py:161} INFO - Started process (PID=16095) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:36:01.107+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:36:01.108+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:36:01.108+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:36:02.143+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:36:02.143+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:36:02.144+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:36:02.143+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-hnz2s_wd because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:36:02.292+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:36:02.292+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:36:02.678+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:36:02.706+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:36:02.705+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:36:02.717+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:36:02.717+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:36:02.734+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.637 seconds
+[2025-10-12T21:36:32.800+0000] {processor.py:161} INFO - Started process (PID=16116) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:36:32.803+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:36:32.804+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:36:32.803+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:36:33.817+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:36:33.817+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:36:33.818+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:36:33.818+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-45gshhwi because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:36:33.968+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:36:33.968+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:36:34.307+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:36:34.332+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:36:34.330+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:36:34.344+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:36:34.344+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:36:34.366+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.574 seconds
+[2025-10-12T21:37:04.443+0000] {processor.py:161} INFO - Started process (PID=16144) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:37:04.445+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:37:04.446+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:37:04.446+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:37:05.451+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:37:05.450+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:37:05.452+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:37:05.452+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-f6wmgl39 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:37:05.600+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:37:05.600+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:37:05.953+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:37:05.981+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:37:05.980+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:37:05.993+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:37:05.992+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:37:06.012+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.576 seconds
+[2025-10-12T21:37:36.671+0000] {processor.py:161} INFO - Started process (PID=16165) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:37:36.673+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:37:36.674+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:37:36.674+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:37:37.690+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:37:37.690+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:37:37.691+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:37:37.691+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-iyd9ceau because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:37:37.841+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:37:37.841+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:37:38.190+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:37:38.215+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:37:38.214+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:37:38.228+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:37:38.227+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:37:38.249+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.585 seconds
+[2025-10-12T21:38:08.617+0000] {processor.py:161} INFO - Started process (PID=16190) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:38:08.620+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:38:08.621+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:38:08.621+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:38:09.656+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:38:09.655+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:38:09.656+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:38:09.656+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-xds3j__f because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:38:09.803+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:38:09.802+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:38:10.155+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:38:10.178+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:38:10.178+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:38:10.189+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:38:10.188+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:38:10.209+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.599 seconds
+[2025-10-12T21:38:40.966+0000] {processor.py:161} INFO - Started process (PID=16211) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:38:40.968+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:38:40.970+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:38:40.969+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:38:41.983+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:38:41.983+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:38:41.984+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:38:41.984+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-cy9g0r9h because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:38:42.140+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:38:42.140+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:38:42.502+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:38:42.530+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:38:42.529+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:38:42.542+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:38:42.542+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:38:42.560+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.600 seconds
+[2025-10-12T21:39:13.329+0000] {processor.py:161} INFO - Started process (PID=16238) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:39:13.332+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:39:13.333+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:39:13.332+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:39:14.391+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:39:14.391+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:39:14.392+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:39:14.392+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-t72ukl91 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:39:14.551+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:39:14.550+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:39:14.985+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:39:15.022+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:39:15.022+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:39:15.042+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:39:15.041+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:39:15.066+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.743 seconds
+[2025-10-12T21:39:45.414+0000] {processor.py:161} INFO - Started process (PID=16260) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:39:45.415+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:39:45.416+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:39:45.416+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:39:46.407+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:39:46.407+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:39:46.408+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:39:46.408+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-8r_irs7z because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:39:46.567+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:39:46.567+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:39:46.943+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:39:46.971+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:39:46.969+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:39:46.982+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:39:46.982+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:39:47.004+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.595 seconds
+[2025-10-12T21:40:17.798+0000] {processor.py:161} INFO - Started process (PID=16287) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:40:17.801+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:40:17.802+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:40:17.802+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:40:19.018+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:40:19.018+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:40:19.019+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:40:19.019+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-oosej9pa because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:40:19.183+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:40:19.183+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:40:19.641+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:40:19.685+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:40:19.684+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:40:19.706+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:40:19.706+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:40:19.739+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.949 seconds
+[2025-10-12T21:40:50.166+0000] {processor.py:161} INFO - Started process (PID=16308) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:40:50.168+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:40:50.170+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:40:50.169+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:40:51.238+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:40:51.237+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:40:51.239+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:40:51.238+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-6rlvyglh because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:40:51.391+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:40:51.390+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:40:51.761+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:40:51.787+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:40:51.786+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:40:51.801+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:40:51.800+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:40:51.826+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.667 seconds
+[2025-10-12T21:41:22.518+0000] {processor.py:161} INFO - Started process (PID=16336) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:41:22.521+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:41:22.522+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:41:22.521+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:41:23.566+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:41:23.565+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:41:23.567+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:41:23.566+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-i7dcv20m because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:41:23.715+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:41:23.715+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:41:24.163+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:41:24.207+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:41:24.206+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:41:24.226+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:41:24.226+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:41:24.254+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.742 seconds
+[2025-10-12T21:41:54.636+0000] {processor.py:161} INFO - Started process (PID=16357) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:41:54.637+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:41:54.638+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:41:54.637+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:41:55.666+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:41:55.665+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:41:55.667+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:41:55.667+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-_c_rndj4 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:41:55.824+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:41:55.823+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:41:56.178+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:41:56.207+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:41:56.206+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:41:56.219+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:41:56.219+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:41:56.240+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.610 seconds
+[2025-10-12T21:42:26.579+0000] {processor.py:161} INFO - Started process (PID=16386) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:42:26.581+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:42:26.582+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:42:26.582+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:42:27.616+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:42:27.615+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:42:27.617+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:42:27.616+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-khp2di76 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:42:27.771+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:42:27.771+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:42:28.123+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:42:28.152+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:42:28.151+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:42:28.164+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:42:28.163+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:42:28.184+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.612 seconds
+[2025-10-12T21:42:58.582+0000] {processor.py:161} INFO - Started process (PID=16407) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:42:58.595+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:42:58.596+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:42:58.595+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:42:59.666+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:42:59.665+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:42:59.667+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:42:59.667+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-dg97v4bl because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:42:59.827+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:42:59.827+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:43:00.201+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:43:00.230+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:43:00.230+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:43:00.241+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:43:00.241+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:43:00.263+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.688 seconds
+[2025-10-12T21:43:30.649+0000] {processor.py:161} INFO - Started process (PID=16435) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:43:30.649+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:43:30.650+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:43:30.650+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:43:31.708+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:43:31.708+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:43:31.709+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:43:31.709+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-gaw0iv66 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:43:31.859+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:43:31.859+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:43:32.207+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:43:32.232+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:43:32.231+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:43:32.243+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:43:32.242+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:43:32.265+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.623 seconds
+[2025-10-12T21:44:02.551+0000] {processor.py:161} INFO - Started process (PID=16456) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:44:02.554+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:44:02.555+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:44:02.555+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:44:03.612+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:44:03.612+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:44:03.614+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:44:03.614+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-vtpxsauq because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:44:03.769+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:44:03.768+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:44:04.134+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:44:04.170+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:44:04.169+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:44:04.185+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:44:04.184+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:44:04.207+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.663 seconds
+[2025-10-12T21:44:34.606+0000] {processor.py:161} INFO - Started process (PID=16483) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:44:34.607+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:44:34.608+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:44:34.607+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:44:35.681+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:44:35.681+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:44:35.685+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:44:35.684+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-0pcxdd41 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:44:35.836+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:44:35.836+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:44:36.196+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:44:36.222+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:44:36.222+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:44:36.234+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:44:36.234+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:44:36.260+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.662 seconds
+[2025-10-12T21:45:06.635+0000] {processor.py:161} INFO - Started process (PID=16504) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:45:06.652+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:45:06.654+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:45:06.653+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:45:07.756+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:45:07.755+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:45:07.757+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:45:07.756+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-dvndzde0 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:45:07.920+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:45:07.919+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:45:08.350+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:45:08.395+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:45:08.394+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:45:08.415+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:45:08.415+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:45:08.446+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.817 seconds
+[2025-10-12T21:45:38.892+0000] {processor.py:161} INFO - Started process (PID=16535) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:45:38.893+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:45:38.894+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:45:38.894+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:45:39.928+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:45:39.928+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:45:39.929+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:45:39.929+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-x0l3zq9o because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:45:40.087+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:45:40.086+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:45:40.437+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:45:40.460+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:45:40.459+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:45:40.470+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:45:40.470+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:45:40.491+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.606 seconds
+[2025-10-12T21:46:11.184+0000] {processor.py:161} INFO - Started process (PID=16558) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:46:11.186+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:46:11.188+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:46:11.187+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:46:12.235+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:46:12.235+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:46:12.236+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:46:12.236+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-mbb27u6o because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:46:12.397+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:46:12.397+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:46:12.754+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:46:12.781+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:46:12.780+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:46:12.793+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:46:12.793+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:46:12.813+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.637 seconds
+[2025-10-12T21:46:43.135+0000] {processor.py:161} INFO - Started process (PID=16587) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:46:43.138+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:46:43.139+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:46:43.138+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:46:44.208+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:46:44.208+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:46:44.209+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:46:44.209+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-k2loh0k3 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:46:44.371+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:46:44.371+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:46:44.751+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:46:44.776+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:46:44.776+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:46:44.789+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:46:44.788+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:46:44.809+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.681 seconds
+[2025-10-12T21:47:15.192+0000] {processor.py:161} INFO - Started process (PID=16608) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:47:15.194+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:47:15.195+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:47:15.195+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:47:16.220+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:47:16.220+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:47:16.221+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:47:16.221+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-76f1qjo7 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:47:16.376+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:47:16.376+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:47:16.726+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:47:16.756+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:47:16.755+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:47:16.769+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:47:16.768+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:47:16.798+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.613 seconds
+[2025-10-12T21:47:47.201+0000] {processor.py:161} INFO - Started process (PID=16636) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:47:47.204+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:47:47.205+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:47:47.204+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:47:48.244+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:47:48.244+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:47:48.245+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:47:48.245+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-xmboaoxo because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:47:48.408+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:47:48.407+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:47:48.772+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:47:48.801+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:47:48.800+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:47:48.812+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:47:48.812+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:47:48.843+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.648 seconds
+[2025-10-12T21:48:18.963+0000] {processor.py:161} INFO - Started process (PID=16656) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:48:18.964+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:48:18.965+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:48:18.965+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:48:20.045+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:48:20.045+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:48:20.046+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:48:20.046+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-lksbqiom because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:48:20.206+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:48:20.206+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:48:20.571+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:48:20.602+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:48:20.601+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:48:20.614+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:48:20.614+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:48:20.639+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.683 seconds
+[2025-10-12T21:48:50.715+0000] {processor.py:161} INFO - Started process (PID=16684) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:48:50.716+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:48:50.717+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:48:50.717+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:48:51.744+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:48:51.744+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:48:51.747+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:48:51.747+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-frl98_kc because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:48:51.895+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:48:51.895+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:48:52.249+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:48:52.278+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:48:52.277+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:48:52.291+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:48:52.290+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:48:52.314+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.605 seconds
+[2025-10-12T21:49:22.757+0000] {processor.py:161} INFO - Started process (PID=16706) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:49:22.758+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:49:22.760+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:49:22.759+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:49:23.831+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:49:23.830+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:49:23.831+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:49:23.831+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-rtg5yab0 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:49:23.991+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:49:23.990+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:49:24.361+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:49:24.393+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:49:24.392+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:49:24.405+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:49:24.405+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:49:24.428+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.678 seconds
+[2025-10-12T21:49:54.785+0000] {processor.py:161} INFO - Started process (PID=16733) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:49:54.788+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:49:54.789+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:49:54.789+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:49:55.806+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:49:55.805+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:49:55.807+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:49:55.806+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-qnjtt5jc because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:49:55.962+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:49:55.962+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:49:56.308+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:49:56.333+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:49:56.332+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:49:56.345+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:49:56.345+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:49:56.371+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.592 seconds
+[2025-10-12T21:50:27.083+0000] {processor.py:161} INFO - Started process (PID=16754) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:50:27.086+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:50:27.087+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:50:27.087+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:50:28.146+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:50:28.146+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:50:28.160+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:50:28.160+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-jbholb1a because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:50:28.312+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:50:28.312+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:50:28.675+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:50:28.704+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:50:28.703+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:50:28.714+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:50:28.714+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:50:28.735+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.658 seconds
+[2025-10-12T21:50:59.366+0000] {processor.py:161} INFO - Started process (PID=16782) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:50:59.378+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:50:59.379+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:50:59.379+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:51:00.444+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:51:00.443+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:51:00.444+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:51:00.444+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-hw5u4vdw because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:51:00.595+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:51:00.594+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:51:00.946+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:51:00.976+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:51:00.975+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:51:00.989+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:51:00.988+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:51:01.015+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.656 seconds
+[2025-10-12T21:51:31.083+0000] {processor.py:161} INFO - Started process (PID=16801) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:51:31.085+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:51:31.086+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:51:31.086+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:51:32.112+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:51:32.112+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:51:32.113+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:51:32.112+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-_tcamy5j because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:51:32.261+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:51:32.260+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:51:32.610+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:51:32.638+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:51:32.637+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:51:32.648+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:51:32.648+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:51:32.673+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.597 seconds
+[2025-10-12T21:52:03.062+0000] {processor.py:161} INFO - Started process (PID=16828) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:52:03.065+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:52:03.067+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:52:03.066+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:52:04.105+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:52:04.105+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:52:04.106+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:52:04.106+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-dn7kicyt because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:52:04.264+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:52:04.263+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:52:04.603+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:52:04.632+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:52:04.631+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:52:04.644+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:52:04.644+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:52:04.672+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.617 seconds
+[2025-10-12T21:52:35.435+0000] {processor.py:161} INFO - Started process (PID=16849) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:52:35.438+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:52:35.439+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:52:35.438+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:52:36.489+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:52:36.488+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:52:36.490+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:52:36.490+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-g8xgllru because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:52:36.651+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:52:36.651+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:52:37.028+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:52:37.059+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:52:37.059+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:52:37.074+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:52:37.073+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:52:37.095+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.666 seconds
+[2025-10-12T21:53:08.099+0000] {processor.py:161} INFO - Started process (PID=16877) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:53:08.102+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:53:08.103+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:53:08.103+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:53:09.158+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:53:09.157+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:53:09.158+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:53:09.158+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-atd301e_ because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:53:09.319+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:53:09.318+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:53:09.686+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:53:09.714+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:53:09.713+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:53:09.727+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:53:09.726+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:53:09.753+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.661 seconds
+[2025-10-12T21:53:40.461+0000] {processor.py:161} INFO - Started process (PID=16905) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:53:40.462+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:53:40.463+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:53:40.463+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:53:41.507+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:53:41.507+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:53:41.508+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:53:41.508+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-olkhrwhe because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:53:41.664+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:53:41.663+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:53:42.044+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:53:42.078+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:53:42.077+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:53:42.090+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:53:42.089+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:53:42.113+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.659 seconds
+[2025-10-12T21:54:12.847+0000] {processor.py:161} INFO - Started process (PID=16925) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:54:12.850+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:54:12.851+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:54:12.851+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:54:13.996+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:54:13.996+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:54:13.997+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:54:13.997+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-ct7qy3xb because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:54:14.159+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:54:14.158+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:54:14.548+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:54:14.579+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:54:14.578+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:54:14.593+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:54:14.592+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:54:14.628+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.789 seconds
+[2025-10-12T21:54:45.235+0000] {processor.py:161} INFO - Started process (PID=16954) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:54:45.238+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:54:45.239+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:54:45.239+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:54:46.362+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:54:46.362+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:54:46.363+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:54:46.363+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-g_kqy4hm because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:54:46.527+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:54:46.527+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:54:46.920+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:54:46.951+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:54:46.950+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:54:46.967+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:54:46.967+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:54:46.995+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.768 seconds
+[2025-10-12T21:55:17.772+0000] {processor.py:161} INFO - Started process (PID=16975) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:55:17.775+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:55:17.776+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:55:17.776+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:55:18.868+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:55:18.868+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:55:18.869+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:55:18.869+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-uxpg0y28 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:55:19.027+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:55:19.027+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:55:19.408+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:55:19.437+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:55:19.436+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:55:19.449+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:55:19.449+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:55:19.473+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.708 seconds
+[2025-10-12T21:55:50.144+0000] {processor.py:161} INFO - Started process (PID=17003) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:55:50.147+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:55:50.149+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:55:50.148+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:55:51.253+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:55:51.253+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:55:51.254+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:55:51.254+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-3prvf2uo because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:55:51.415+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:55:51.414+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:55:51.787+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:55:51.817+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:55:51.817+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:55:51.828+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:55:51.828+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:55:51.850+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.714 seconds
+[2025-10-12T21:56:22.519+0000] {processor.py:161} INFO - Started process (PID=17024) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:56:22.522+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:56:22.523+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:56:22.523+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:56:23.561+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:56:23.561+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:56:23.562+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:56:23.562+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-9pv9v2xk because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:56:23.712+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:56:23.712+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:56:24.075+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:56:24.102+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:56:24.101+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:56:24.115+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:56:24.114+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:56:24.141+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.628 seconds
+[2025-10-12T21:56:54.886+0000] {processor.py:161} INFO - Started process (PID=17052) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:56:54.889+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:56:54.890+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:56:54.889+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:56:55.935+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:56:55.935+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:56:55.936+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:56:55.936+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-0h0uj6sf because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:56:56.090+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:56:56.089+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:56:56.456+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:56:56.489+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:56:56.488+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:56:56.502+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:56:56.502+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:56:56.528+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.648 seconds
+[2025-10-12T21:57:27.256+0000] {processor.py:161} INFO - Started process (PID=17073) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:57:27.257+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:57:27.257+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:57:27.257+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:57:28.339+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:57:28.339+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:57:28.340+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:57:28.340+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-zx7yc3ua because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:57:28.500+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:57:28.500+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:57:28.857+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:57:28.887+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:57:28.886+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:57:28.899+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:57:28.898+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:57:28.924+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.675 seconds
+[2025-10-12T21:57:59.622+0000] {processor.py:161} INFO - Started process (PID=17101) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:57:59.625+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:57:59.626+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:57:59.625+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:58:00.636+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:58:00.635+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:58:00.636+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:58:00.636+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-zlughwlm because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:58:00.788+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:58:00.787+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:58:01.146+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:58:01.173+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:58:01.172+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:58:01.183+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:58:01.182+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:58:01.199+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.583 seconds
+[2025-10-12T21:58:31.999+0000] {processor.py:161} INFO - Started process (PID=17122) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:58:32.002+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:58:32.003+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:58:32.002+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:58:33.041+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:58:33.041+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:58:33.042+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:58:33.042+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-rllgcp9t because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:58:33.194+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:58:33.193+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:58:33.552+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:58:33.583+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:58:33.582+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:58:33.596+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:58:33.596+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:58:33.618+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.626 seconds
+[2025-10-12T21:59:04.339+0000] {processor.py:161} INFO - Started process (PID=17151) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:59:04.340+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:59:04.341+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:59:04.340+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:59:05.423+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:59:05.423+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:59:05.427+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:59:05.426+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-oce36w1c because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:59:05.580+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:59:05.580+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:59:05.944+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:59:05.978+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:59:05.977+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:59:05.993+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:59:05.993+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:59:06.019+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.687 seconds
+[2025-10-12T21:59:36.978+0000] {processor.py:161} INFO - Started process (PID=17171) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:59:36.981+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T21:59:36.982+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:59:36.981+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:59:37.989+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:59:37.988+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:59:37.990+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:59:37.990+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-lhho5tv1 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:59:38.152+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:59:38.152+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:59:38.506+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T21:59:38.533+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:59:38.532+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:59:38.545+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:59:38.545+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T21:59:38.569+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.598 seconds
+[2025-10-12T22:00:09.327+0000] {processor.py:161} INFO - Started process (PID=17199) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T22:00:09.328+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T22:00:09.329+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:00:09.328+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T22:00:10.367+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:00:10.367+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T22:00:10.368+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:00:10.368+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-paeub4c5 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T22:00:10.523+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:00:10.522+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T22:00:10.871+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T22:00:10.903+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:00:10.902+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T22:00:10.916+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:00:10.915+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T22:00:10.944+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.623 seconds
+[2025-10-12T22:00:41.710+0000] {processor.py:161} INFO - Started process (PID=17220) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T22:00:41.714+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T22:00:41.715+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:00:41.715+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T22:00:42.814+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:00:42.814+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T22:00:42.815+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:00:42.814+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-p1om_qa5 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T22:00:42.974+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:00:42.974+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T22:00:43.334+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T22:00:43.360+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:00:43.359+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T22:00:43.372+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:00:43.372+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T22:00:43.391+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.688 seconds
+[2025-10-12T22:01:14.062+0000] {processor.py:161} INFO - Started process (PID=17248) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T22:01:14.064+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T22:01:14.065+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:01:14.065+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T22:01:15.077+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:01:15.076+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T22:01:15.078+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:01:15.078+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-wg7n_xti because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T22:01:15.228+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:01:15.227+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T22:01:15.573+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T22:01:15.600+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:01:15.600+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T22:01:15.611+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:01:15.611+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T22:01:15.738+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.682 seconds
+[2025-10-12T22:01:46.683+0000] {processor.py:161} INFO - Started process (PID=17269) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T22:01:46.684+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T22:01:46.685+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:01:46.684+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T22:01:47.724+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:01:47.724+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T22:01:47.725+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:01:47.725+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-dv_oe422 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T22:01:47.886+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:01:47.886+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T22:01:48.245+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T22:01:48.272+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:01:48.271+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T22:01:48.287+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:01:48.286+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T22:01:48.310+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.634 seconds
+[2025-10-12T22:02:19.055+0000] {processor.py:161} INFO - Started process (PID=17297) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T22:02:19.058+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T22:02:19.059+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:02:19.058+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T22:02:20.086+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:02:20.085+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T22:02:20.087+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:02:20.086+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-jyefb7wg because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T22:02:20.257+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:02:20.257+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T22:02:20.620+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T22:02:20.647+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:02:20.647+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T22:02:20.658+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:02:20.658+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T22:02:20.678+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.630 seconds
+[2025-10-12T22:02:51.405+0000] {processor.py:161} INFO - Started process (PID=17319) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T22:02:51.408+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T22:02:51.409+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:02:51.408+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T22:02:52.418+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:02:52.417+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T22:02:52.419+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:02:52.418+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-a00negfh because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T22:02:52.570+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:02:52.570+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T22:02:52.931+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T22:02:52.956+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:02:52.955+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T22:02:52.968+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:02:52.968+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T22:02:52.989+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.590 seconds
+[2025-10-12T22:03:23.767+0000] {processor.py:161} INFO - Started process (PID=17347) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T22:03:23.768+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T22:03:23.769+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:03:23.769+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T22:03:24.793+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:03:24.793+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T22:03:24.794+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:03:24.794+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-_y8vhci5 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T22:03:24.943+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:03:24.943+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T22:03:25.285+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T22:03:25.311+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:03:25.310+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T22:03:25.322+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:03:25.322+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T22:03:25.342+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.581 seconds
+[2025-10-12T22:03:56.120+0000] {processor.py:161} INFO - Started process (PID=17369) to work on /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T22:03:56.123+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_knn.py for tasks to queue
+[2025-10-12T22:03:56.124+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:03:56.123+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T22:03:57.150+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:03:57.150+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T22:03:57.151+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:03:57.151+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-gq5e3vnk because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T22:03:57.303+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:03:57.302+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T22:03:57.654+0000] {processor.py:840} INFO - DAG(s) 'train_knn' retrieved from /opt/airflow/dags/entrenamiento_knn.py
+[2025-10-12T22:03:57.678+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:03:57.677+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T22:03:57.689+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:03:57.688+0000] {dag.py:3954} INFO - Setting next_dagrun for train_knn to None, run_after=None
+[2025-10-12T22:03:57.716+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_knn.py took 1.602 seconds

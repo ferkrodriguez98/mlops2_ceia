@@ -6778,3 +6778,1013 @@
 [2025-10-12T21:09:41.963+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:09:41.963+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2025-10-12T21:09:41.973+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:09:41.973+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
 [2025-10-12T21:09:41.991+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.657 seconds
+[2025-10-12T21:10:12.319+0000] {processor.py:161} INFO - Started process (PID=14894) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:10:12.320+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:10:12.322+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:10:12.321+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:10:13.393+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:10:13.392+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:10:13.393+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:10:13.393+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-s9odrx6h because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:10:13.544+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:10:13.544+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:10:13.894+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:10:13.921+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:10:13.920+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:10:13.931+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:10:13.931+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:10:13.951+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.638 seconds
+[2025-10-12T21:10:44.269+0000] {processor.py:161} INFO - Started process (PID=14922) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:10:44.272+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:10:44.274+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:10:44.273+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:10:45.335+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:10:45.335+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:10:45.336+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:10:45.336+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-nskwjgqo because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:10:45.496+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:10:45.496+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:10:45.838+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:10:45.865+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:10:45.864+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:10:45.876+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:10:45.875+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:10:45.897+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.634 seconds
+[2025-10-12T21:11:16.225+0000] {processor.py:161} INFO - Started process (PID=14944) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:11:16.226+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:11:16.227+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:11:16.226+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:11:17.302+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:11:17.302+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:11:17.309+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:11:17.309+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-vsl1ypqb because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:11:17.468+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:11:17.467+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:11:17.827+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:11:17.856+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:11:17.854+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:11:17.868+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:11:17.867+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:11:17.893+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.674 seconds
+[2025-10-12T21:11:48.156+0000] {processor.py:161} INFO - Started process (PID=14972) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:11:48.157+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:11:48.158+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:11:48.158+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:11:49.233+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:11:49.233+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:11:49.234+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:11:49.234+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-yfv9hohb because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:11:49.397+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:11:49.396+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:11:49.764+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:11:49.793+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:11:49.790+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:11:49.806+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:11:49.805+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:11:49.832+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.683 seconds
+[2025-10-12T21:12:19.930+0000] {processor.py:161} INFO - Started process (PID=14993) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:12:19.937+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:12:19.939+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:12:19.938+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:12:21.024+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:12:21.024+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:12:21.025+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:12:21.025+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-st6iukp0 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:12:21.179+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:12:21.178+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:12:21.525+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:12:21.552+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:12:21.551+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:12:21.564+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:12:21.563+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:12:21.586+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.665 seconds
+[2025-10-12T21:12:51.977+0000] {processor.py:161} INFO - Started process (PID=15022) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:12:51.978+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:12:51.978+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:12:51.978+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:12:53.076+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:12:53.076+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:12:53.077+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:12:53.077+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-znqoeqcg because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:12:53.227+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:12:53.226+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:12:53.584+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:12:53.611+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:12:53.610+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:12:53.622+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:12:53.622+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:12:53.643+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.672 seconds
+[2025-10-12T21:13:23.990+0000] {processor.py:161} INFO - Started process (PID=15043) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:13:23.992+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:13:23.993+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:13:23.993+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:13:25.070+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:13:25.070+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:13:25.071+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:13:25.071+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-l3bcqw3l because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:13:25.229+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:13:25.229+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:13:25.573+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:13:25.601+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:13:25.601+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:13:25.611+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:13:25.611+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:13:25.628+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.645 seconds
+[2025-10-12T21:13:56.595+0000] {processor.py:161} INFO - Started process (PID=15070) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:13:56.598+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:13:56.599+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:13:56.598+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:13:57.708+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:13:57.707+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:13:57.709+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:13:57.708+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-u3aemm1t because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:13:57.867+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:13:57.866+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:13:58.205+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:13:58.227+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:13:58.227+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:13:58.237+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:13:58.237+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:13:58.259+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.670 seconds
+[2025-10-12T21:14:28.569+0000] {processor.py:161} INFO - Started process (PID=15091) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:14:28.570+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:14:28.570+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:14:28.570+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:14:29.691+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:14:29.691+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:14:29.692+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:14:29.692+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-26qe0ppr because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:14:29.852+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:14:29.852+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:14:30.202+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:14:30.230+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:14:30.229+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:14:30.243+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:14:30.243+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:14:30.266+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.705 seconds
+[2025-10-12T21:15:00.995+0000] {processor.py:161} INFO - Started process (PID=15120) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:15:00.998+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:15:00.999+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:15:00.999+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:15:02.068+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:15:02.068+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:15:02.069+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:15:02.069+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-bq6m4zd4 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:15:02.223+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:15:02.222+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:15:02.571+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:15:02.596+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:15:02.596+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:15:02.606+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:15:02.606+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:15:02.623+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.634 seconds
+[2025-10-12T21:15:32.942+0000] {processor.py:161} INFO - Started process (PID=15142) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:15:32.944+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:15:32.945+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:15:32.945+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:15:33.966+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:15:33.965+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:15:33.967+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:15:33.967+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-tv944lz2 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:15:34.118+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:15:34.118+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:15:34.462+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:15:34.490+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:15:34.489+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:15:34.503+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:15:34.502+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:15:34.527+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.592 seconds
+[2025-10-12T21:16:04.621+0000] {processor.py:161} INFO - Started process (PID=15171) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:16:04.633+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:16:04.634+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:16:04.633+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:16:05.706+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:16:05.706+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:16:05.707+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:16:05.707+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-93153brk because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:16:05.858+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:16:05.857+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:16:06.197+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:16:06.222+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:16:06.221+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:16:06.232+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:16:06.232+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:16:06.252+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.638 seconds
+[2025-10-12T21:16:36.777+0000] {processor.py:161} INFO - Started process (PID=15192) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:16:36.780+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:16:36.781+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:16:36.780+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:16:37.854+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:16:37.854+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:16:37.855+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:16:37.855+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-30bgwfhc because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:16:38.013+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:16:38.012+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:16:38.346+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:16:38.375+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:16:38.374+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:16:38.389+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:16:38.389+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:16:38.415+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.645 seconds
+[2025-10-12T21:17:08.618+0000] {processor.py:161} INFO - Started process (PID=15221) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:17:08.619+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:17:08.620+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:17:08.619+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:17:09.694+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:17:09.694+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:17:09.704+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:17:09.704+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-0twj_w9e because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:17:09.857+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:17:09.857+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:17:10.195+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:17:10.221+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:17:10.220+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:17:10.232+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:17:10.232+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:17:10.254+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.643 seconds
+[2025-10-12T21:17:40.534+0000] {processor.py:161} INFO - Started process (PID=15242) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:17:40.535+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:17:40.536+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:17:40.536+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:17:41.586+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:17:41.586+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:17:41.587+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:17:41.587+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-b613ohum because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:17:41.743+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:17:41.742+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:17:42.096+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:17:42.124+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:17:42.123+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:17:42.139+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:17:42.138+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:17:42.161+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.633 seconds
+[2025-10-12T21:18:12.476+0000] {processor.py:161} INFO - Started process (PID=15270) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:18:12.483+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:18:12.484+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:18:12.483+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:18:13.531+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:18:13.531+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:18:13.532+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:18:13.532+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-zttwzwaj because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:18:13.682+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:18:13.682+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:18:14.039+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:18:14.067+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:18:14.066+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:18:14.078+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:18:14.078+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:18:14.101+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.632 seconds
+[2025-10-12T21:18:44.459+0000] {processor.py:161} INFO - Started process (PID=15291) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:18:44.460+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:18:44.461+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:18:44.460+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:18:45.513+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:18:45.513+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:18:45.514+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:18:45.514+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-mn00r6f1 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:18:45.664+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:18:45.663+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:18:46.018+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:18:46.044+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:18:46.043+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:18:46.057+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:18:46.056+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:18:46.074+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.621 seconds
+[2025-10-12T21:19:16.289+0000] {processor.py:161} INFO - Started process (PID=15319) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:19:16.290+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:19:16.291+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:19:16.290+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:19:17.348+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:19:17.347+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:19:17.350+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:19:17.350+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-idy09rac because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:19:17.499+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:19:17.499+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:19:17.836+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:19:17.864+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:19:17.863+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:19:17.877+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:19:17.876+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:19:17.902+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.619 seconds
+[2025-10-12T21:19:48.274+0000] {processor.py:161} INFO - Started process (PID=15340) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:19:48.276+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:19:48.277+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:19:48.277+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:19:49.354+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:19:49.354+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:19:49.355+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:19:49.355+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-6asenks5 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:19:49.527+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:19:49.526+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:19:49.892+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:19:49.920+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:19:49.917+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:19:49.933+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:19:49.932+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:19:49.956+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.689 seconds
+[2025-10-12T21:20:20.085+0000] {processor.py:161} INFO - Started process (PID=15368) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:20:20.086+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:20:20.087+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:20:20.087+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:20:21.171+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:20:21.171+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:20:21.172+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:20:21.172+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-0n0bxk4w because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:20:21.324+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:20:21.323+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:20:21.682+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:20:21.709+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:20:21.708+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:20:21.722+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:20:21.721+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:20:21.745+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.667 seconds
+[2025-10-12T21:20:52.114+0000] {processor.py:161} INFO - Started process (PID=15389) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:20:52.116+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:20:52.117+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:20:52.117+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:20:53.196+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:20:53.196+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:20:53.197+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:20:53.197+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-lbccna85 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:20:53.352+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:20:53.351+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:20:53.695+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:20:53.722+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:20:53.721+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:20:53.734+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:20:53.734+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:20:53.752+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.645 seconds
+[2025-10-12T21:21:23.863+0000] {processor.py:161} INFO - Started process (PID=15418) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:21:23.864+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:21:23.865+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:21:23.864+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:21:24.945+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:21:24.945+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:21:24.953+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:21:24.953+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-kdc5lhio because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:21:25.107+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:21:25.107+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:21:25.476+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:21:25.503+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:21:25.502+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:21:25.515+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:21:25.515+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:21:25.538+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.682 seconds
+[2025-10-12T21:21:56.400+0000] {processor.py:161} INFO - Started process (PID=15440) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:21:56.407+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:21:56.408+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:21:56.408+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:21:57.514+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:21:57.513+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:21:57.514+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:21:57.514+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-474csslm because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:21:57.668+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:21:57.668+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:21:58.033+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:21:58.062+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:21:58.059+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:21:58.073+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:21:58.073+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:21:58.093+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.699 seconds
+[2025-10-12T21:22:28.382+0000] {processor.py:161} INFO - Started process (PID=15468) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:22:28.382+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:22:28.383+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:22:28.383+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:22:29.443+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:22:29.443+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:22:29.444+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:22:29.444+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-0kjrb53i because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:22:29.597+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:22:29.597+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:22:29.949+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:22:29.979+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:22:29.978+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:22:29.991+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:22:29.991+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:22:30.013+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.637 seconds
+[2025-10-12T21:23:00.418+0000] {processor.py:161} INFO - Started process (PID=15489) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:23:00.421+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:23:00.422+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:23:00.421+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:23:01.533+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:23:01.533+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:23:01.534+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:23:01.534+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-c75zaij1 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:23:01.690+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:23:01.689+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:23:02.055+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:23:02.081+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:23:02.081+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:23:02.094+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:23:02.093+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:23:02.114+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.703 seconds
+[2025-10-12T21:23:32.562+0000] {processor.py:161} INFO - Started process (PID=15517) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:23:32.563+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:23:32.564+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:23:32.563+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:23:33.696+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:23:33.696+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:23:33.699+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:23:33.699+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-8c13o9vz because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:23:33.853+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:23:33.852+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:23:34.219+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:23:34.246+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:23:34.245+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:23:34.259+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:23:34.258+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:23:34.282+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.727 seconds
+[2025-10-12T21:24:04.775+0000] {processor.py:161} INFO - Started process (PID=15542) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:24:04.776+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:24:04.777+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:24:04.776+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:24:05.868+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:24:05.867+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:24:05.869+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:24:05.868+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-8b0_r4hv because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:24:06.031+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:24:06.030+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:24:06.380+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:24:06.405+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:24:06.405+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:24:06.418+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:24:06.418+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:24:06.440+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.672 seconds
+[2025-10-12T21:24:37.178+0000] {processor.py:161} INFO - Started process (PID=15570) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:24:37.180+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:24:37.181+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:24:37.181+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:24:38.266+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:24:38.266+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:24:38.267+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:24:38.267+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-twvjuy9k because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:24:38.422+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:24:38.422+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:24:38.772+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:24:38.800+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:24:38.799+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:24:38.814+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:24:38.813+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:24:38.840+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.669 seconds
+[2025-10-12T21:25:09.066+0000] {processor.py:161} INFO - Started process (PID=15591) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:25:09.066+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:25:09.067+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:25:09.067+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:25:10.135+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:25:10.134+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:25:10.137+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:25:10.137+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-yogba7ew because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:25:10.291+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:25:10.290+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:25:10.629+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:25:10.655+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:25:10.653+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:25:10.666+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:25:10.665+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:25:10.685+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.626 seconds
+[2025-10-12T21:25:41.029+0000] {processor.py:161} INFO - Started process (PID=15619) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:25:41.032+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:25:41.033+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:25:41.032+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:25:42.073+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:25:42.072+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:25:42.073+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:25:42.073+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-_znozazq because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:25:42.224+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:25:42.223+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:25:42.592+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:25:42.616+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:25:42.615+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:25:42.627+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:25:42.627+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:25:42.650+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.627 seconds
+[2025-10-12T21:26:12.985+0000] {processor.py:161} INFO - Started process (PID=15640) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:26:12.988+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:26:12.989+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:26:12.989+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:26:14.021+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:26:14.021+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:26:14.022+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:26:14.022+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-1d4c7qeg because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:26:14.171+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:26:14.170+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:26:14.542+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:26:14.571+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:26:14.570+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:26:14.587+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:26:14.587+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:26:14.609+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.630 seconds
+[2025-10-12T21:26:44.937+0000] {processor.py:161} INFO - Started process (PID=15667) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:26:44.938+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:26:44.939+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:26:44.939+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:26:45.991+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:26:45.991+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:26:45.992+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:26:45.992+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-e7a89g2n because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:26:46.142+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:26:46.142+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:26:46.485+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:26:46.510+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:26:46.510+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:26:46.522+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:26:46.521+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:26:46.548+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.617 seconds
+[2025-10-12T21:27:17.504+0000] {processor.py:161} INFO - Started process (PID=15688) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:27:17.506+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:27:17.507+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:27:17.507+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:27:18.579+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:27:18.579+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:27:18.580+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:27:18.580+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-j871d4by because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:27:18.742+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:27:18.741+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:27:19.107+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:27:19.133+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:27:19.132+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:27:19.145+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:27:19.145+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:27:19.170+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.673 seconds
+[2025-10-12T21:27:49.585+0000] {processor.py:161} INFO - Started process (PID=15716) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:27:49.588+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:27:49.589+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:27:49.588+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:27:50.651+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:27:50.651+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:27:50.652+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:27:50.652+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-vn8d4u4p because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:27:50.808+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:27:50.807+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:27:51.153+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:27:51.176+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:27:51.175+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:27:51.188+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:27:51.187+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:27:51.210+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.632 seconds
+[2025-10-12T21:28:21.771+0000] {processor.py:161} INFO - Started process (PID=15744) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:28:21.772+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:28:21.773+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:28:21.772+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:28:22.863+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:28:22.863+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:28:22.864+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:28:22.864+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-sdjb95qy because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:28:23.025+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:28:23.025+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:28:23.374+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:28:23.405+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:28:23.404+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:28:23.415+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:28:23.415+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:28:23.435+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.670 seconds
+[2025-10-12T21:28:54.399+0000] {processor.py:161} INFO - Started process (PID=15765) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:28:54.403+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:28:54.404+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:28:54.403+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:28:55.464+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:28:55.463+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:28:55.464+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:28:55.464+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-sdf_dvn1 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:28:55.614+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:28:55.614+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:28:55.958+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:28:55.985+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:28:55.984+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:28:55.996+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:28:55.995+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:28:56.015+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.622 seconds
+[2025-10-12T21:29:26.739+0000] {processor.py:161} INFO - Started process (PID=15794) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:29:26.742+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:29:26.743+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:29:26.743+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:29:27.797+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:29:27.797+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:29:27.798+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:29:27.798+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-xqjry1o1 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:29:27.955+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:29:27.954+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:29:28.290+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:29:28.315+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:29:28.315+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:29:28.327+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:29:28.327+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:29:28.348+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.615 seconds
+[2025-10-12T21:29:59.290+0000] {processor.py:161} INFO - Started process (PID=15816) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:29:59.292+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:29:59.294+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:29:59.293+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:30:01.205+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:30:01.204+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:30:01.206+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:30:01.206+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-ar3n5ztd because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:30:01.468+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:30:01.468+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:30:02.143+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:30:02.193+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:30:02.192+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:30:02.215+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:30:02.215+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:30:02.256+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 2.972 seconds
+[2025-10-12T21:30:32.800+0000] {processor.py:161} INFO - Started process (PID=15844) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:30:32.804+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:30:32.806+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:30:32.805+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:30:34.913+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:30:34.913+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:30:34.915+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:30:34.915+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-2emo5ocj because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:30:35.119+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:30:35.118+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:30:35.695+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:30:35.746+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:30:35.745+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:30:35.768+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:30:35.768+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:30:35.802+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 3.015 seconds
+[2025-10-12T21:31:06.305+0000] {processor.py:161} INFO - Started process (PID=15866) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:31:06.312+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:31:06.316+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:31:06.314+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:31:08.743+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:31:08.743+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:31:08.744+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:31:08.744+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-7v6myqeh because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:31:08.935+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:31:08.935+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:31:09.584+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:31:09.648+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:31:09.647+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:31:09.672+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:31:09.672+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:31:09.700+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 3.438 seconds
+[2025-10-12T21:31:40.323+0000] {processor.py:161} INFO - Started process (PID=15893) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:31:40.326+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:31:40.327+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:31:40.326+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:31:41.391+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:31:41.391+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:31:41.392+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:31:41.392+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-zwatj7r1 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:31:41.540+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:31:41.540+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:31:41.895+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:31:41.922+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:31:41.921+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:31:41.934+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:31:41.934+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:31:41.953+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.637 seconds
+[2025-10-12T21:32:12.691+0000] {processor.py:161} INFO - Started process (PID=15914) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:32:12.702+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:32:12.704+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:32:12.703+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:32:13.810+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:32:13.810+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:32:13.811+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:32:13.811+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-31jp8pr3 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:32:13.969+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:32:13.968+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:32:14.354+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:32:14.397+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:32:14.394+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:32:14.415+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:32:14.415+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:32:14.440+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.755 seconds
+[2025-10-12T21:32:44.783+0000] {processor.py:161} INFO - Started process (PID=15941) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:32:44.784+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:32:44.785+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:32:44.784+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:32:45.855+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:32:45.855+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:32:45.856+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:32:45.856+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-88q4ormr because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:32:46.007+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:32:46.007+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:32:46.348+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:32:46.375+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:32:46.374+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:32:46.387+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:32:46.386+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:32:46.411+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.634 seconds
+[2025-10-12T21:33:16.777+0000] {processor.py:161} INFO - Started process (PID=15962) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:33:16.780+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:33:16.781+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:33:16.780+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:33:17.866+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:33:17.866+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:33:17.867+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:33:17.867+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-kzka4w3j because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:33:18.026+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:33:18.025+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:33:18.400+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:33:18.428+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:33:18.427+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:33:18.439+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:33:18.439+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:33:18.462+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.691 seconds
+[2025-10-12T21:33:48.536+0000] {processor.py:161} INFO - Started process (PID=15990) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:33:48.539+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:33:48.540+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:33:48.540+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:33:49.635+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:33:49.635+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:33:49.636+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:33:49.636+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-xd73b7fs because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:33:49.795+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:33:49.795+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:33:50.155+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:33:50.187+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:33:50.186+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:33:50.199+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:33:50.199+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:33:50.222+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.693 seconds
+[2025-10-12T21:34:21.258+0000] {processor.py:161} INFO - Started process (PID=16011) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:34:21.261+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:34:21.262+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:34:21.261+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:34:22.327+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:34:22.327+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:34:22.328+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:34:22.328+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-zk1qgqc4 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:34:22.481+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:34:22.481+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:34:22.840+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:34:22.867+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:34:22.867+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:34:22.881+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:34:22.881+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:34:22.903+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.652 seconds
+[2025-10-12T21:34:53.283+0000] {processor.py:161} INFO - Started process (PID=16039) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:34:53.285+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:34:53.286+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:34:53.286+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:34:54.403+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:34:54.402+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:34:54.404+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:34:54.404+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-oabowabm because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:34:54.560+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:34:54.559+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:34:54.925+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:34:54.956+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:34:54.955+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:34:54.967+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:34:54.967+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:34:54.988+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.712 seconds
+[2025-10-12T21:35:25.641+0000] {processor.py:161} INFO - Started process (PID=16060) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:35:25.644+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:35:25.645+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:35:25.644+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:35:26.717+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:35:26.717+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:35:26.718+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:35:26.718+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-dll8m8_e because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:35:26.875+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:35:26.875+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:35:27.237+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:35:27.266+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:35:27.265+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:35:27.277+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:35:27.277+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:35:27.302+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.667 seconds
+[2025-10-12T21:35:57.362+0000] {processor.py:161} INFO - Started process (PID=16089) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:35:57.365+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:35:57.367+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:35:57.366+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:35:58.450+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:35:58.450+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:35:58.451+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:35:58.451+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-mnppv7ze because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:35:58.605+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:35:58.604+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:35:58.968+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:35:58.992+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:35:58.991+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:35:59.005+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:35:59.005+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:35:59.029+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.674 seconds
+[2025-10-12T21:36:30.081+0000] {processor.py:161} INFO - Started process (PID=16110) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:36:30.084+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:36:30.085+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:36:30.084+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:36:31.144+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:36:31.144+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:36:31.147+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:36:31.147+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-cc98it2p because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:36:31.303+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:36:31.302+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:36:31.668+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:36:31.696+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:36:31.695+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:36:31.709+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:36:31.709+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:36:31.734+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.659 seconds
+[2025-10-12T21:37:02.719+0000] {processor.py:161} INFO - Started process (PID=16138) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:37:02.722+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:37:02.723+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:37:02.722+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:37:03.796+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:37:03.796+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:37:03.797+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:37:03.797+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-wljdauyw because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:37:03.950+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:37:03.950+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:37:04.319+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:37:04.348+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:37:04.347+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:37:04.359+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:37:04.358+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:37:04.381+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.668 seconds
+[2025-10-12T21:37:34.980+0000] {processor.py:161} INFO - Started process (PID=16159) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:37:34.982+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:37:34.984+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:37:34.983+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:37:36.023+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:37:36.022+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:37:36.024+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:37:36.024+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-n0e6m659 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:37:36.185+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:37:36.184+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:37:36.545+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:37:36.573+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:37:36.573+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:37:36.587+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:37:36.586+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:37:36.610+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.637 seconds
+[2025-10-12T21:38:07.598+0000] {processor.py:161} INFO - Started process (PID=16187) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:38:07.601+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:38:07.602+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:38:07.601+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:38:08.638+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:38:08.638+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:38:08.639+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:38:08.639+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-y7434xzq because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:38:08.790+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:38:08.790+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:38:09.145+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:38:09.170+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:38:09.169+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:38:09.182+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:38:09.182+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:38:09.205+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.613 seconds
+[2025-10-12T21:38:39.946+0000] {processor.py:161} INFO - Started process (PID=16208) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:38:39.949+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:38:39.950+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:38:39.949+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:38:41.012+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:38:41.012+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:38:41.013+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:38:41.013+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-4lma8_es because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:38:41.174+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:38:41.173+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:38:41.526+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:38:41.553+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:38:41.552+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:38:41.564+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:38:41.564+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:38:41.585+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.645 seconds
+[2025-10-12T21:39:12.300+0000] {processor.py:161} INFO - Started process (PID=16235) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:39:12.303+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:39:12.304+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:39:12.303+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:39:13.401+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:39:13.401+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:39:13.402+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:39:13.402+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-0xjudyie because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:39:13.559+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:39:13.558+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:39:13.920+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:39:13.950+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:39:13.947+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:39:13.962+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:39:13.962+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:39:13.985+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.691 seconds
+[2025-10-12T21:39:44.394+0000] {processor.py:161} INFO - Started process (PID=16256) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:39:44.397+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:39:44.397+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:39:44.397+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:39:45.421+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:39:45.420+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:39:45.422+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:39:45.421+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-7w3pltcu because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:39:45.577+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:39:45.577+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:39:45.939+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:39:45.966+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:39:45.966+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:39:45.977+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:39:45.977+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:39:45.995+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.607 seconds
+[2025-10-12T21:40:16.776+0000] {processor.py:161} INFO - Started process (PID=16284) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:40:16.777+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:40:16.778+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:40:16.778+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:40:17.902+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:40:17.902+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:40:17.903+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:40:17.903+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-3c2z5mp8 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:40:18.066+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:40:18.066+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:40:18.470+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:40:18.510+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:40:18.508+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:40:18.530+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:40:18.530+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:40:18.565+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.795 seconds
+[2025-10-12T21:40:49.122+0000] {processor.py:161} INFO - Started process (PID=16305) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:40:49.125+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:40:49.126+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:40:49.125+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:40:50.217+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:40:50.217+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:40:50.218+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:40:50.218+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-p913455_ because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:40:50.374+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:40:50.374+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:40:50.739+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:40:50.768+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:40:50.767+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:40:50.782+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:40:50.782+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:40:50.808+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.692 seconds
+[2025-10-12T21:41:21.499+0000] {processor.py:161} INFO - Started process (PID=16333) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:41:21.502+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:41:21.503+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:41:21.502+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:41:22.558+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:41:22.557+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:41:22.559+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:41:22.558+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-t5nh9vmu because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:41:22.713+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:41:22.713+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:41:23.084+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:41:23.110+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:41:23.109+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:41:23.122+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:41:23.122+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:41:23.146+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.653 seconds
+[2025-10-12T21:41:53.616+0000] {processor.py:161} INFO - Started process (PID=16354) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:41:53.617+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:41:53.618+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:41:53.618+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:41:54.686+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:41:54.685+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:41:54.687+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:41:54.686+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-_m5aw4_2 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:41:54.843+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:41:54.843+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:41:55.202+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:41:55.235+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:41:55.234+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:41:55.246+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:41:55.246+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:41:55.273+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.663 seconds
+[2025-10-12T21:42:25.560+0000] {processor.py:161} INFO - Started process (PID=16383) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:42:25.563+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:42:25.564+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:42:25.563+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:42:26.609+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:42:26.609+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:42:26.610+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:42:26.610+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-ozth9l58 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:42:26.763+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:42:26.763+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:42:27.116+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:42:27.144+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:42:27.143+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:42:27.158+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:42:27.158+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:42:27.184+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.630 seconds
+[2025-10-12T21:42:57.560+0000] {processor.py:161} INFO - Started process (PID=16404) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:42:57.561+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:42:57.562+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:42:57.561+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:42:58.659+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:42:58.659+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:42:58.662+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:42:58.662+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-fa6ssit4 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:42:58.815+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:42:58.814+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:42:59.194+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:42:59.220+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:42:59.219+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:42:59.231+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:42:59.231+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:42:59.258+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.704 seconds
+[2025-10-12T21:43:29.629+0000] {processor.py:161} INFO - Started process (PID=16432) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:43:29.630+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:43:29.631+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:43:29.631+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:43:30.679+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:43:30.678+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:43:30.680+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:43:30.680+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-w6_2g577 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:43:30.839+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:43:30.839+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:43:31.196+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:43:31.229+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:43:31.226+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:43:31.243+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:43:31.242+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:43:31.268+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.645 seconds
+[2025-10-12T21:44:01.532+0000] {processor.py:161} INFO - Started process (PID=16453) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:44:01.535+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:44:01.537+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:44:01.536+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:44:02.557+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:44:02.557+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:44:02.558+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:44:02.558+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-hbgmyf96 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:44:02.723+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:44:02.723+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:44:03.073+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:44:03.098+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:44:03.098+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:44:03.110+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:44:03.110+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:44:03.138+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.612 seconds
+[2025-10-12T21:44:33.565+0000] {processor.py:161} INFO - Started process (PID=16480) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:44:33.566+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:44:33.567+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:44:33.566+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:44:34.613+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:44:34.613+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:44:34.614+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:44:34.614+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-cugf7wey because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:44:34.776+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:44:34.775+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:44:35.144+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:44:35.172+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:44:35.171+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:44:35.186+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:44:35.186+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:44:35.210+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.651 seconds
+[2025-10-12T21:45:05.616+0000] {processor.py:161} INFO - Started process (PID=16501) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:45:05.616+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:45:05.617+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:45:05.617+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:45:06.710+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:45:06.710+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:45:06.714+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:45:06.713+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-2oo8p92h because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:45:06.879+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:45:06.879+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:45:07.278+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:45:07.313+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:45:07.312+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:45:07.326+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:45:07.326+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:45:07.351+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.742 seconds
+[2025-10-12T21:45:37.429+0000] {processor.py:161} INFO - Started process (PID=16529) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:45:37.430+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:45:37.431+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:45:37.430+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:45:38.500+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:45:38.499+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:45:38.501+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:45:38.500+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-foy13_3w because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:45:38.651+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:45:38.651+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:45:39.023+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:45:39.053+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:45:39.052+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:45:39.065+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:45:39.064+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:45:39.091+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.669 seconds
+[2025-10-12T21:46:09.478+0000] {processor.py:161} INFO - Started process (PID=16550) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:46:09.481+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:46:09.483+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:46:09.482+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:46:10.513+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:46:10.513+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:46:10.514+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:46:10.514+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-qg6kw_7n because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:46:10.676+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:46:10.675+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:46:11.043+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:46:11.073+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:46:11.072+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:46:11.086+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:46:11.086+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:46:11.111+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.640 seconds
+[2025-10-12T21:46:41.405+0000] {processor.py:161} INFO - Started process (PID=16578) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:46:41.408+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:46:41.409+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:46:41.408+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:46:42.469+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:46:42.469+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:46:42.472+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:46:42.472+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-bdc4cm67 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:46:42.632+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:46:42.631+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:46:43.012+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:46:43.043+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:46:43.042+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:46:43.054+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:46:43.054+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:46:43.074+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.677 seconds
+[2025-10-12T21:47:13.132+0000] {processor.py:161} INFO - Started process (PID=16599) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:47:13.134+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:47:13.136+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:47:13.135+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:47:14.190+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:47:14.189+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:47:14.192+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:47:14.192+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-xoxfdjlm because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:47:14.349+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:47:14.348+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:47:14.701+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:47:14.728+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:47:14.728+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:47:14.741+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:47:14.740+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:47:14.765+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.640 seconds
+[2025-10-12T21:47:45.145+0000] {processor.py:161} INFO - Started process (PID=16627) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:47:45.148+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:47:45.149+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:47:45.149+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:47:46.208+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:47:46.208+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:47:46.209+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:47:46.209+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-tbp15d38 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:47:46.365+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:47:46.365+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:47:46.723+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:47:46.753+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:47:46.752+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:47:46.766+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:47:46.766+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:47:46.793+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.654 seconds
+[2025-10-12T21:48:17.175+0000] {processor.py:161} INFO - Started process (PID=16648) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:48:17.176+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:48:17.177+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:48:17.177+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:48:18.292+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:48:18.292+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:48:18.294+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:48:18.293+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-8x21_r6j because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:48:18.457+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:48:18.457+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:48:18.828+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:48:18.863+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:48:18.862+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:48:18.878+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:48:18.878+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:48:18.901+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.732 seconds
+[2025-10-12T21:48:48.979+0000] {processor.py:161} INFO - Started process (PID=16676) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:48:48.982+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:48:48.983+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:48:48.983+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:48:50.073+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:48:50.073+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:48:50.074+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:48:50.074+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-wv13xy2g because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:48:50.232+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:48:50.231+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:48:50.579+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:48:50.608+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:48:50.607+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:48:50.622+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:48:50.622+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:48:50.647+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.675 seconds
+[2025-10-12T21:49:20.977+0000] {processor.py:161} INFO - Started process (PID=16697) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:49:20.978+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:49:20.979+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:49:20.978+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:49:22.093+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:49:22.092+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:49:22.096+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:49:22.095+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-yw9aquy5 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:49:22.254+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:49:22.253+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:49:22.624+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:49:22.653+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:49:22.652+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:49:22.666+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:49:22.665+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:49:22.690+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.721 seconds
+[2025-10-12T21:49:53.056+0000] {processor.py:161} INFO - Started process (PID=16724) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:49:53.059+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:49:53.060+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:49:53.060+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:49:54.151+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:49:54.151+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:49:54.152+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:49:54.152+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-g76oqvvu because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:49:54.306+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:49:54.306+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:49:54.664+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:49:54.692+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:49:54.689+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:49:54.705+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:49:54.704+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:49:54.725+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.675 seconds
+[2025-10-12T21:50:25.318+0000] {processor.py:161} INFO - Started process (PID=16748) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:50:25.321+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:50:25.322+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:50:25.322+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:50:26.427+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:50:26.426+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:50:26.427+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:50:26.427+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-918z41fj because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:50:26.584+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:50:26.584+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:50:26.957+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:50:26.986+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:50:26.985+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:50:26.997+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:50:26.997+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:50:27.018+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.707 seconds
+[2025-10-12T21:50:57.680+0000] {processor.py:161} INFO - Started process (PID=16776) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:50:57.683+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:50:57.684+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:50:57.684+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:50:58.743+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:50:58.743+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:50:58.746+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:50:58.746+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-aue2vyer because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:50:58.901+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:50:58.900+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:50:59.249+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:50:59.272+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:50:59.272+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:50:59.283+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:50:59.282+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:50:59.306+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.633 seconds
+[2025-10-12T21:51:30.064+0000] {processor.py:161} INFO - Started process (PID=16797) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:51:30.067+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:51:30.068+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:51:30.067+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:51:31.132+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:51:31.131+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:51:31.132+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:51:31.132+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-4rkbzfl6 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:51:31.287+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:51:31.286+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:51:31.644+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:51:31.670+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:51:31.669+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:51:31.682+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:51:31.682+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:51:31.708+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.651 seconds
+[2025-10-12T21:52:02.042+0000] {processor.py:161} INFO - Started process (PID=16825) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:52:02.054+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:52:02.055+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:52:02.054+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:52:03.140+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:52:03.140+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:52:03.141+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:52:03.141+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-2nm0wkx0 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:52:03.295+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:52:03.294+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:52:03.652+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:52:03.678+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:52:03.677+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:52:03.688+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:52:03.688+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:52:03.712+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.676 seconds
+[2025-10-12T21:52:34.404+0000] {processor.py:161} INFO - Started process (PID=16846) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:52:34.407+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:52:34.408+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:52:34.408+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:52:35.492+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:52:35.492+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:52:35.493+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:52:35.493+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-_vorzzox because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:52:35.648+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:52:35.648+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:52:36.008+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:52:36.035+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:52:36.034+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:52:36.046+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:52:36.045+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:52:36.067+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.670 seconds
+[2025-10-12T21:53:07.079+0000] {processor.py:161} INFO - Started process (PID=16874) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:53:07.095+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:53:07.096+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:53:07.095+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:53:08.174+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:53:08.174+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:53:08.175+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:53:08.175+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-azwek24b because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:53:08.331+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:53:08.330+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:53:08.684+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:53:08.712+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:53:08.711+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:53:08.723+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:53:08.723+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:53:08.748+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.677 seconds
+[2025-10-12T21:53:39.441+0000] {processor.py:161} INFO - Started process (PID=16895) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:53:39.444+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:53:39.445+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:53:39.444+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:53:40.537+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:53:40.537+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:53:40.538+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:53:40.538+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-9tfyxwwm because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:53:40.691+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:53:40.690+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:53:41.053+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:53:41.080+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:53:41.080+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:53:41.094+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:53:41.093+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:53:41.114+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.680 seconds
+[2025-10-12T21:54:11.822+0000] {processor.py:161} INFO - Started process (PID=16923) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:54:11.825+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:54:11.827+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:54:11.826+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:54:13.010+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:54:13.009+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:54:13.011+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:54:13.011+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-rvv5472e because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:54:13.173+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:54:13.173+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:54:13.580+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:54:13.614+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:54:13.613+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:54:13.628+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:54:13.627+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:54:13.651+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.836 seconds
+[2025-10-12T21:54:44.212+0000] {processor.py:161} INFO - Started process (PID=16951) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:54:44.215+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:54:44.216+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:54:44.216+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:54:45.370+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:54:45.370+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:54:45.371+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:54:45.371+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-kmafw2ui because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:54:45.528+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:54:45.528+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:54:45.912+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:54:45.942+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:54:45.941+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:54:45.955+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:54:45.954+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:54:45.978+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.773 seconds
+[2025-10-12T21:55:16.744+0000] {processor.py:161} INFO - Started process (PID=16972) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:55:16.747+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:55:16.748+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:55:16.748+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:55:17.853+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:55:17.853+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:55:17.854+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:55:17.854+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-uiiq_80_ because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:55:18.010+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:55:18.010+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:55:18.382+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:55:18.415+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:55:18.414+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:55:18.427+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:55:18.427+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:55:18.452+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.716 seconds
+[2025-10-12T21:55:49.123+0000] {processor.py:161} INFO - Started process (PID=17000) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:55:49.126+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:55:49.128+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:55:49.127+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:55:50.211+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:55:50.211+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:55:50.212+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:55:50.212+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-vku0mgoq because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:55:50.397+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:55:50.397+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:55:50.785+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:55:50.816+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:55:50.815+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:55:50.829+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:55:50.829+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:55:50.859+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.743 seconds
+[2025-10-12T21:56:21.500+0000] {processor.py:161} INFO - Started process (PID=17021) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:56:21.503+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:56:21.504+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:56:21.504+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:56:22.592+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:56:22.592+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:56:22.593+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:56:22.593+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-ozzboucx because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:56:22.751+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:56:22.750+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:56:23.107+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:56:23.135+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:56:23.134+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:56:23.147+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:56:23.146+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:56:23.172+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.678 seconds
+[2025-10-12T21:56:53.864+0000] {processor.py:161} INFO - Started process (PID=17049) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:56:53.867+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:56:53.868+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:56:53.867+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:56:54.949+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:56:54.948+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:56:54.950+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:56:54.949+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-pab9his6 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:56:55.102+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:56:55.102+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:56:55.451+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:56:55.479+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:56:55.478+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:56:55.490+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:56:55.490+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:56:55.515+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.658 seconds
+[2025-10-12T21:57:26.234+0000] {processor.py:161} INFO - Started process (PID=17070) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:57:26.237+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:57:26.238+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:57:26.238+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:57:27.343+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:57:27.343+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:57:27.344+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:57:27.344+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-l6dprddl because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:57:27.506+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:57:27.506+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:57:27.874+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:57:27.907+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:57:27.906+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:57:27.922+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:57:27.921+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:57:27.945+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.718 seconds
+[2025-10-12T21:57:58.593+0000] {processor.py:161} INFO - Started process (PID=17098) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:57:58.596+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:57:58.597+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:57:58.596+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:57:59.673+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:57:59.673+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:57:59.690+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:57:59.690+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-l5til7t8 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:57:59.842+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:57:59.842+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:58:00.204+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:58:00.232+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:58:00.231+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:58:00.244+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:58:00.244+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:58:00.269+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.682 seconds
+[2025-10-12T21:58:30.975+0000] {processor.py:161} INFO - Started process (PID=17119) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:58:30.978+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:58:30.980+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:58:30.979+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:58:32.072+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:58:32.071+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:58:32.073+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:58:32.072+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-rs12lb3b because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:58:32.227+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:58:32.226+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:58:32.588+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:58:32.617+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:58:32.616+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:58:32.629+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:58:32.628+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:58:32.652+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.684 seconds
+[2025-10-12T21:59:03.319+0000] {processor.py:161} INFO - Started process (PID=17147) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:59:03.320+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:59:03.321+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:59:03.320+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:59:04.371+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:59:04.371+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:59:04.372+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:59:04.372+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-j5rwy1r9 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:59:04.529+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:59:04.529+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:59:04.893+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:59:04.920+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:59:04.919+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:59:04.933+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:59:04.933+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:59:04.964+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.651 seconds
+[2025-10-12T21:59:35.959+0000] {processor.py:161} INFO - Started process (PID=17168) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:59:35.962+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T21:59:35.963+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:59:35.963+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:59:37.036+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:59:37.036+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T21:59:37.037+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:59:37.037+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-byb1hv55 because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T21:59:37.192+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:59:37.191+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T21:59:37.550+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T21:59:37.579+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:59:37.578+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T21:59:37.590+0000] {logging_mixin.py:188} INFO - [2025-10-12T21:59:37.590+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T21:59:37.613+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.660 seconds
+[2025-10-12T22:00:08.307+0000] {processor.py:161} INFO - Started process (PID=17196) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T22:00:08.310+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T22:00:08.311+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:00:08.310+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T22:00:09.408+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:00:09.407+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T22:00:09.409+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:00:09.408+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-hroogceg because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T22:00:09.568+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:00:09.568+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T22:00:09.925+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T22:00:09.954+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:00:09.953+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T22:00:09.964+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:00:09.964+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T22:00:09.992+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.692 seconds
+[2025-10-12T22:00:40.680+0000] {processor.py:161} INFO - Started process (PID=17217) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T22:00:40.681+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T22:00:40.682+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:00:40.681+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T22:00:41.780+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:00:41.780+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T22:00:41.781+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:00:41.781+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-kplps2te because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T22:00:41.949+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:00:41.948+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T22:00:42.302+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T22:00:42.336+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:00:42.335+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T22:00:42.348+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:00:42.348+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T22:00:42.374+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.700 seconds
+[2025-10-12T22:01:13.043+0000] {processor.py:161} INFO - Started process (PID=17245) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T22:01:13.046+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T22:01:13.047+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:01:13.047+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T22:01:14.074+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:01:14.073+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T22:01:14.075+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:01:14.075+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-su_zz82a because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T22:01:14.230+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:01:14.230+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T22:01:14.601+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T22:01:14.628+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:01:14.628+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T22:01:14.640+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:01:14.640+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T22:01:14.664+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.628 seconds
+[2025-10-12T22:01:45.663+0000] {processor.py:161} INFO - Started process (PID=17266) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T22:01:45.665+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T22:01:45.666+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:01:45.666+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T22:01:46.693+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:01:46.693+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T22:01:46.694+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:01:46.694+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-rmxy5yzn because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T22:01:46.854+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:01:46.854+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T22:01:47.227+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T22:01:47.256+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:01:47.256+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T22:01:47.269+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:01:47.268+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T22:01:47.295+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.639 seconds
+[2025-10-12T22:02:18.029+0000] {processor.py:161} INFO - Started process (PID=17294) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T22:02:18.030+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T22:02:18.031+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:02:18.031+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T22:02:19.109+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:02:19.108+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T22:02:19.110+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:02:19.110+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-m9xqqpax because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T22:02:19.263+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:02:19.263+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T22:02:19.624+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T22:02:19.649+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:02:19.648+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T22:02:19.659+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:02:19.658+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T22:02:19.676+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.653 seconds
+[2025-10-12T22:02:50.385+0000] {processor.py:161} INFO - Started process (PID=17316) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T22:02:50.398+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T22:02:50.399+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:02:50.399+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T22:02:51.441+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:02:51.441+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T22:02:51.442+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:02:51.442+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-tzkgce4w because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T22:02:51.595+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:02:51.595+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T22:02:51.948+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T22:02:51.976+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:02:51.976+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T22:02:51.988+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:02:51.988+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T22:02:52.008+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.629 seconds
+[2025-10-12T22:03:22.736+0000] {processor.py:161} INFO - Started process (PID=17344) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T22:03:22.754+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T22:03:22.756+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:03:22.755+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T22:03:23.827+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:03:23.827+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T22:03:23.828+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:03:23.828+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-k6zecxef because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T22:03:23.979+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:03:23.979+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T22:03:24.354+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T22:03:24.380+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:03:24.379+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T22:03:24.391+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:03:24.391+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T22:03:24.413+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.684 seconds
+[2025-10-12T22:03:55.101+0000] {processor.py:161} INFO - Started process (PID=17365) to work on /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T22:03:55.102+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_lightGBM.py for tasks to queue
+[2025-10-12T22:03:55.103+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:03:55.102+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T22:03:56.123+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:03:56.122+0000] {__init__.py:537} WARNING - mkdir -p failed for path /home/airflow/.cache/matplotlib: [Errno 13] Permission denied: '/home/airflow/.cache/matplotlib'
+[2025-10-12T22:03:56.123+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:03:56.123+0000] {__init__.py:554} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-o9pvhi3d because there was an issue with the default path (/home/airflow/.cache/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2025-10-12T22:03:56.289+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:03:56.288+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-10-12T22:03:56.653+0000] {processor.py:840} INFO - DAG(s) 'train_lightgbm' retrieved from /opt/airflow/dags/entrenamiento_lightGBM.py
+[2025-10-12T22:03:56.681+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:03:56.680+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-12T22:03:56.692+0000] {logging_mixin.py:188} INFO - [2025-10-12T22:03:56.691+0000] {dag.py:3954} INFO - Setting next_dagrun for train_lightgbm to None, run_after=None
+[2025-10-12T22:03:56.710+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_lightGBM.py took 1.615 seconds
