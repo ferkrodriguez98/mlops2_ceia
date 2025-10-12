@@ -5,7 +5,7 @@ be imported with ``from etl import ...``. When the package was empty Airflow
 failed to parse the DAGs because the import resolved to an empty module.
 """
 
-from .etl import (  # noqa: F401
+from etl.etl import (  # noqa: F401
     cargar_datos,
     eliminar_columnas,
     eliminar_nulos_columna,
