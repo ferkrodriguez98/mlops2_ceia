@@ -1,0 +1,75 @@
+[2025-10-12T15:27:14.156+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-10-12T15:27:14.188+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: train_svm.train_svm manual__2025-10-12T15:27:05.082786+00:00 [queued]>
+[2025-10-12T15:27:14.199+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: train_svm.train_svm manual__2025-10-12T15:27:05.082786+00:00 [queued]>
+[2025-10-12T15:27:14.199+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-10-12T15:27:14.219+0000] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): train_svm> on 2025-10-12 15:27:05.082786+00:00
+[2025-10-12T15:27:14.233+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=435) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-10-12T15:27:14.234+0000] {standard_task_runner.py:63} INFO - Started process 457 to run task
+[2025-10-12T15:27:14.235+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'train_svm', 'train_svm', 'manual__2025-10-12T15:27:05.082786+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/entrenamiento_svm.py', '--cfg-path', '/tmp/tmpv1ordhvg']
+[2025-10-12T15:27:14.236+0000] {standard_task_runner.py:91} INFO - Job 30: Subtask train_svm
+[2025-10-12T15:27:14.284+0000] {task_command.py:426} INFO - Running <TaskInstance: train_svm.train_svm manual__2025-10-12T15:27:05.082786+00:00 [running]> on host 7920bc5e4faa
+[2025-10-12T15:27:14.406+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='train_svm' AIRFLOW_CTX_TASK_ID='train_svm' AIRFLOW_CTX_EXECUTION_DATE='2025-10-12T15:27:05.082786+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-12T15:27:05.082786+00:00'
+[2025-10-12T15:27:14.415+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-10-12T15:27:14.504+0000] {entrenamiento_svm.py:85} INFO - Shapes: X_train=(17151, 13), X_test=(4288, 13), y_train=(17151,), y_test=(4288,)
+[2025-10-12T15:27:14.572+0000] {logging_mixin.py:188} WARNING - 2025/10/12 15:27:14 INFO mlflow.tracking.fluent: Experiment with name 'svm_optuna' does not exist. Creating a new experiment.
+[2025-10-12T15:27:14.694+0000] {log.py:232} WARNING - [I 2025-10-12 15:27:14,694] A new study created in memory with name: no-name-404aa3fc-7c1c-49a3-97bb-7f4c2caea288
+[2025-10-12T15:40:41.480+0000] {logging_mixin.py:188} INFO - 🏃 View run abrasive-squid-138 at: http://mlflow:5000/#/experiments/5/runs/67a719c318ac464f81238aad008f45da
+[2025-10-12T15:40:41.481+0000] {logging_mixin.py:188} INFO - 🧪 View experiment at: http://mlflow:5000/#/experiments/5
+[2025-10-12T15:40:41.548+0000] {entrenamiento_svm.py:116} INFO - Trial 0 -> f1_macro=0.8515, params={'C': 32.84609283885128, 'kernel': 'poly', 'gamma': 0.4678059073378674}
+[2025-10-12T15:40:41.550+0000] {log.py:232} WARNING - [I 2025-10-12 15:40:41,550] Trial 0 finished with value: 0.851452066511202 and parameters: {'C': 32.84609283885128, 'kernel': 'poly', 'gamma': 0.4678059073378674}. Best is trial 0 with value: 0.851452066511202.
+[2025-10-12T15:46:28.504+0000] {logging_mixin.py:188} INFO - 🏃 View run thoughtful-kite-173 at: http://mlflow:5000/#/experiments/5/runs/8bfa7b1efa2540e58eff9a8b2f7a6c3a
+[2025-10-12T15:46:28.505+0000] {logging_mixin.py:188} INFO - 🧪 View experiment at: http://mlflow:5000/#/experiments/5
+[2025-10-12T15:46:28.564+0000] {entrenamiento_svm.py:116} INFO - Trial 1 -> f1_macro=0.8538, params={'C': 8.75439344977818, 'kernel': 'poly', 'gamma': 0.5786766960384877}
+[2025-10-12T15:46:28.565+0000] {log.py:232} WARNING - [I 2025-10-12 15:46:28,565] Trial 1 finished with value: 0.8537896001976097 and parameters: {'C': 8.75439344977818, 'kernel': 'poly', 'gamma': 0.5786766960384877}. Best is trial 1 with value: 0.8537896001976097.
+[2025-10-12T15:46:33.264+0000] {logging_mixin.py:188} INFO - 🏃 View run thoughtful-mule-752 at: http://mlflow:5000/#/experiments/5/runs/06187d576eb8448e9e0f51a38a298264
+[2025-10-12T15:46:33.265+0000] {logging_mixin.py:188} INFO - 🧪 View experiment at: http://mlflow:5000/#/experiments/5
+[2025-10-12T15:46:33.320+0000] {entrenamiento_svm.py:116} INFO - Trial 2 -> f1_macro=0.8562, params={'C': 0.1830979151926351, 'kernel': 'rbf', 'gamma': 0.1869069406765391}
+[2025-10-12T15:46:33.321+0000] {log.py:232} WARNING - [I 2025-10-12 15:46:33,321] Trial 2 finished with value: 0.8561781625619144 and parameters: {'C': 0.1830979151926351, 'kernel': 'rbf', 'gamma': 0.1869069406765391}. Best is trial 2 with value: 0.8561781625619144.
+[2025-10-12T15:46:41.260+0000] {logging_mixin.py:188} INFO - 🏃 View run merciful-sloth-151 at: http://mlflow:5000/#/experiments/5/runs/6060a2c8f5bd48238733813b46a88129
+[2025-10-12T15:46:41.261+0000] {logging_mixin.py:188} INFO - 🧪 View experiment at: http://mlflow:5000/#/experiments/5
+[2025-10-12T15:46:41.320+0000] {entrenamiento_svm.py:116} INFO - Trial 3 -> f1_macro=0.5331, params={'C': 0.44083204319843977, 'kernel': 'rbf', 'gamma': 0.00016500554322453003}
+[2025-10-12T15:46:41.321+0000] {log.py:232} WARNING - [I 2025-10-12 15:46:41,321] Trial 3 finished with value: 0.5331295781242085 and parameters: {'C': 0.44083204319843977, 'kernel': 'rbf', 'gamma': 0.00016500554322453003}. Best is trial 2 with value: 0.8561781625619144.
+[2025-10-12T15:46:44.272+0000] {logging_mixin.py:188} INFO - 🏃 View run capricious-fowl-179 at: http://mlflow:5000/#/experiments/5/runs/a0a86547be434faf94c7a7b8aab687e7
+[2025-10-12T15:46:44.273+0000] {logging_mixin.py:188} INFO - 🧪 View experiment at: http://mlflow:5000/#/experiments/5
+[2025-10-12T15:46:44.328+0000] {entrenamiento_svm.py:116} INFO - Trial 4 -> f1_macro=0.8434, params={'C': 0.031182936288720643, 'kernel': 'poly', 'gamma': 0.1232267885601826}
+[2025-10-12T15:46:44.329+0000] {log.py:232} WARNING - [I 2025-10-12 15:46:44,329] Trial 4 finished with value: 0.8434471050963758 and parameters: {'C': 0.031182936288720643, 'kernel': 'poly', 'gamma': 0.1232267885601826}. Best is trial 2 with value: 0.8561781625619144.
+[2025-10-12T15:46:52.732+0000] {logging_mixin.py:188} INFO - 🏃 View run beautiful-zebra-982 at: http://mlflow:5000/#/experiments/5/runs/19e84a8fbd144a669e98093052cb1d16
+[2025-10-12T15:46:52.733+0000] {logging_mixin.py:188} INFO - 🧪 View experiment at: http://mlflow:5000/#/experiments/5
+[2025-10-12T15:46:52.792+0000] {entrenamiento_svm.py:116} INFO - Trial 5 -> f1_macro=0.5777, params={'C': 0.16247444072155645, 'kernel': 'sigmoid', 'gamma': 0.1830824505089476}
+[2025-10-12T15:46:52.793+0000] {log.py:232} WARNING - [I 2025-10-12 15:46:52,793] Trial 5 finished with value: 0.5777271185823388 and parameters: {'C': 0.16247444072155645, 'kernel': 'sigmoid', 'gamma': 0.1830824505089476}. Best is trial 2 with value: 0.8561781625619144.
+[2025-10-12T15:46:58.048+0000] {logging_mixin.py:188} INFO - 🏃 View run spiffy-hare-57 at: http://mlflow:5000/#/experiments/5/runs/442d477dd5c64db48f797430e673068f
+[2025-10-12T15:46:58.049+0000] {logging_mixin.py:188} INFO - 🧪 View experiment at: http://mlflow:5000/#/experiments/5
+[2025-10-12T15:46:58.104+0000] {entrenamiento_svm.py:116} INFO - Trial 6 -> f1_macro=0.8546, params={'C': 0.3422097557876936, 'kernel': 'sigmoid', 'gamma': 0.01429265712543457}
+[2025-10-12T15:46:58.105+0000] {log.py:232} WARNING - [I 2025-10-12 15:46:58,105] Trial 6 finished with value: 0.8546331453671724 and parameters: {'C': 0.3422097557876936, 'kernel': 'sigmoid', 'gamma': 0.01429265712543457}. Best is trial 2 with value: 0.8561781625619144.
+[2025-10-12T15:47:01.744+0000] {logging_mixin.py:188} INFO - 🏃 View run worried-kit-384 at: http://mlflow:5000/#/experiments/5/runs/1ddcf7984f2d4d06b1fc734b79f7a157
+[2025-10-12T15:47:01.745+0000] {logging_mixin.py:188} INFO - 🧪 View experiment at: http://mlflow:5000/#/experiments/5
+[2025-10-12T15:47:01.804+0000] {entrenamiento_svm.py:116} INFO - Trial 7 -> f1_macro=0.8624, params={'C': 38.92081171965371, 'kernel': 'rbf', 'gamma': 0.004301813291482887}
+[2025-10-12T15:47:01.805+0000] {log.py:232} WARNING - [I 2025-10-12 15:47:01,805] Trial 7 finished with value: 0.8623796933878678 and parameters: {'C': 38.92081171965371, 'kernel': 'rbf', 'gamma': 0.004301813291482887}. Best is trial 7 with value: 0.8623796933878678.
+[2025-10-12T15:47:09.248+0000] {logging_mixin.py:188} INFO - 🏃 View run resilient-lamb-847 at: http://mlflow:5000/#/experiments/5/runs/9b1be89dc9454869957377443f7b658d
+[2025-10-12T15:47:09.249+0000] {logging_mixin.py:188} INFO - 🧪 View experiment at: http://mlflow:5000/#/experiments/5
+[2025-10-12T15:47:09.308+0000] {entrenamiento_svm.py:116} INFO - Trial 8 -> f1_macro=0.8395, params={'C': 0.10843687545164307, 'kernel': 'sigmoid', 'gamma': 0.012524594076987463}
+[2025-10-12T15:47:09.310+0000] {log.py:232} WARNING - [I 2025-10-12 15:47:09,310] Trial 8 finished with value: 0.8394599128352803 and parameters: {'C': 0.10843687545164307, 'kernel': 'sigmoid', 'gamma': 0.012524594076987463}. Best is trial 7 with value: 0.8623796933878678.
+[2025-10-12T15:47:13.128+0000] {logging_mixin.py:188} INFO - 🏃 View run nosy-perch-946 at: http://mlflow:5000/#/experiments/5/runs/4227dff6c2b04151a51b25e10d2612e4
+[2025-10-12T15:47:13.129+0000] {logging_mixin.py:188} INFO - 🧪 View experiment at: http://mlflow:5000/#/experiments/5
+[2025-10-12T15:47:13.188+0000] {entrenamiento_svm.py:116} INFO - Trial 9 -> f1_macro=0.8261, params={'C': 2.779853209784365, 'kernel': 'poly', 'gamma': 0.018003493000566338}
+[2025-10-12T15:47:13.190+0000] {log.py:232} WARNING - [I 2025-10-12 15:47:13,190] Trial 9 finished with value: 0.8261009863127421 and parameters: {'C': 2.779853209784365, 'kernel': 'poly', 'gamma': 0.018003493000566338}. Best is trial 7 with value: 0.8623796933878678.
+[2025-10-12T15:47:18.167+0000] {credentials.py:1147} INFO - Found credentials in environment variables.
+[2025-10-12T15:47:18.672+0000] {logging_mixin.py:188} WARNING - 2025/10/12 15:47:18 WARNING mlflow.models.model: `artifact_path` is deprecated. Please use `name` instead.
+[2025-10-12T15:47:24.859+0000] {logging_mixin.py:188} WARNING - 2025/10/12 15:47:24 WARNING mlflow.models.model: Model logged without a signature and input example. Please set `input_example` parameter when logging the model to auto infer the model signature.
+[2025-10-12T15:47:24.996+0000] {logging_mixin.py:188} INFO - Model logged successfully
+[2025-10-12T15:47:25.152+0000] {logging_mixin.py:188} WARNING - Successfully registered model 'SVC'.
+[2025-10-12T15:47:25.268+0000] {logging_mixin.py:188} WARNING - 2025/10/12 15:47:25 WARNING mlflow.tracking._model_registry.fluent: Run with id 5094d57a01454da38c7a84c7f8a15501 has no artifacts at artifact path 'model', registering model based on models:/m-3bb6c285e2884acab1a8886768b92830 instead
+[2025-10-12T15:47:25.413+0000] {logging_mixin.py:188} WARNING - 2025/10/12 15:47:25 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: SVC, version 1
+[2025-10-12T15:47:25.413+0000] {logging_mixin.py:188} WARNING - Created version '1' of model 'SVC'.
+[2025-10-12T15:47:25.504+0000] {logging_mixin.py:188} INFO - Model registered as 'SVC' with version 1
+[2025-10-12T15:47:25.528+0000] {logging_mixin.py:188} INFO - 🏃 View run caring-vole-570 at: http://mlflow:5000/#/experiments/3/runs/5094d57a01454da38c7a84c7f8a15501
+[2025-10-12T15:47:25.529+0000] {logging_mixin.py:188} INFO - 🧪 View experiment at: http://mlflow:5000/#/experiments/3
+[2025-10-12T15:47:25.584+0000] {entrenamiento_svm.py:164} INFO - SVM entrenado. F1=0.8624, Precision=0.8731, Recall=0.8527
+[2025-10-12T15:47:25.584+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-10-12T15:47:25.585+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-10-12T15:47:25.595+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=train_svm, task_id=train_svm, run_id=manual__2025-10-12T15:27:05.082786+00:00, execution_date=20251012T152705, start_date=20251012T152714, end_date=20251012T154725
+[2025-10-12T15:47:25.686+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-10-12T15:47:25.705+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-10-12T15:47:25.708+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

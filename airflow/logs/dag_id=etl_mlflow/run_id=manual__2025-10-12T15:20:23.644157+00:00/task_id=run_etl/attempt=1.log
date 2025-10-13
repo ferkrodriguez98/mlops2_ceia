@@ -1,0 +1,31 @@
+[2025-10-12T15:20:33.011+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-10-12T15:20:33.039+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_mlflow.run_etl manual__2025-10-12T15:20:23.644157+00:00 [queued]>
+[2025-10-12T15:20:33.049+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_mlflow.run_etl manual__2025-10-12T15:20:23.644157+00:00 [queued]>
+[2025-10-12T15:20:33.050+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2025-10-12T15:20:33.068+0000] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): run_etl> on 2025-10-12 15:20:23.644157+00:00
+[2025-10-12T15:20:33.085+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'etl_mlflow', 'run_etl', 'manual__2025-10-12T15:20:23.644157+00:00', '--job-id', '20', '--raw', '--subdir', 'DAGS_FOLDER/etl_mlflow.py', '--cfg-path', '/tmp/tmplz119k30']
+[2025-10-12T15:20:33.085+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=145) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-10-12T15:20:33.089+0000] {standard_task_runner.py:91} INFO - Job 20: Subtask run_etl
+[2025-10-12T15:20:33.089+0000] {standard_task_runner.py:63} INFO - Started process 163 to run task
+[2025-10-12T15:20:33.201+0000] {task_command.py:426} INFO - Running <TaskInstance: etl_mlflow.run_etl manual__2025-10-12T15:20:23.644157+00:00 [running]> on host 7920bc5e4faa
+[2025-10-12T15:20:33.378+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_mlflow' AIRFLOW_CTX_TASK_ID='run_etl' AIRFLOW_CTX_EXECUTION_DATE='2025-10-12T15:20:23.644157+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-12T15:20:23.644157+00:00'
+[2025-10-12T15:20:33.381+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-10-12T15:20:33.459+0000] {connectionpool.py:874} WARNING - Retrying (Retry(total=6, connect=6, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fefb5b8dca0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=burn_rate_eda
+[2025-10-12T15:20:37.567+0000] {connectionpool.py:874} WARNING - Retrying (Retry(total=5, connect=5, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fefb5b8f020>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=burn_rate_eda
+[2025-10-12T15:20:45.600+0000] {connectionpool.py:874} WARNING - Retrying (Retry(total=4, connect=4, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fefea1247d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=burn_rate_eda
+[2025-10-12T15:21:02.339+0000] {connectionpool.py:874} WARNING - Retrying (Retry(total=3, connect=3, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fefea124980>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=burn_rate_eda
+[2025-10-12T15:21:34.860+0000] {connectionpool.py:874} WARNING - Retrying (Retry(total=2, connect=2, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fefea124f20>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=burn_rate_eda
+[2025-10-12T15:22:39.481+0000] {connectionpool.py:874} WARNING - Retrying (Retry(total=1, connect=1, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fefea125730>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=burn_rate_eda
+[2025-10-12T15:24:39.483+0000] {connectionpool.py:874} WARNING - Retrying (Retry(total=0, connect=0, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fefea125f70>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=burn_rate_eda
+[2025-10-12T15:24:40.258+0000] {logging_mixin.py:188} WARNING - 2025/10/12 15:24:40 INFO mlflow.tracking.fluent: Experiment with name 'burn_rate_eda' does not exist. Creating a new experiment.
+[2025-10-12T15:24:46.400+0000] {credentials.py:1147} INFO - Found credentials in environment variables.
+[2025-10-12T15:24:46.763+0000] {logging_mixin.py:188} INFO - 🏃 View run EDA_Run at: http://mlflow:5000/#/experiments/1/runs/bf14390e5002472f8d3b318bea49271c
+[2025-10-12T15:24:46.763+0000] {logging_mixin.py:188} INFO - 🧪 View experiment at: http://mlflow:5000/#/experiments/1
+[2025-10-12T15:24:46.825+0000] {python.py:237} INFO - Done. Returned value was: {'X_train': '/tmp/X_train.csv', 'X_test': '/tmp/X_test.csv', 'y_train': '/tmp/y_train.csv', 'y_test': '/tmp/y_test.csv'}
+[2025-10-12T15:24:46.825+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-10-12T15:24:46.855+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=etl_mlflow, task_id=run_etl, run_id=manual__2025-10-12T15:20:23.644157+00:00, execution_date=20251012T152023, start_date=20251012T152033, end_date=20251012T152446
+[2025-10-12T15:24:46.913+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-10-12T15:24:46.935+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-10-12T15:24:46.939+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
