@@ -60,22 +60,22 @@ El enfoque permite desacoplar la recepción de datos (API), el almacenamiento te
 
 ## 5. Ejecución con Docker Compose
 
-### 🔧 Levantar todos los servicios
+### Levantar todos los servicios
 ```bash
 docker compose up --build
 ```
 
-### 📊 Verificar contenedores activos
+### Verificar contenedores activos
 ```bash
 docker ps
 ```
 
-### 🔍 Consultar logs del Worker
+### Consultar logs del Worker
 ```bash
 docker logs -f mlops2_ceia-stream_worker-1
 ```
 
-### 🧠 Probar el flujo de datos manualmente
+### Probar el flujo de datos manualmente
 Enviar datos sintéticos a la API FastAPI:
 ```bash
 curl -X POST "http://localhost:8800/predict_stream?model=svm" \

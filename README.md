@@ -11,16 +11,6 @@ Repositorio de un pipeline MLOps orientado a predecir el “burn rate” de empl
 # Dataset
 https://www.kaggle.com/datasets/blurredmachine/are-your-employees-burning-out
 
-## Servicios
-
-- **Airflow:** http://localhost:8080
-- **MLflow:** http://localhost:5001  
-- **MinIO:** http://localhost:9001
-- **API REST:** http://localhost:8800
-- **API GraphQL:** http://localhost:8800/graphql
-- **gRPC:** http://localhost:50051
-
-
 # Flujo de trabajo principal
 1. ***Carga y preprocesamiento:*** el DAG etl_mlflow toma el dataset bruto desde MinIO, aplica todas las transformaciones, registra estadísticas en MLflow y publica los datasets entrenables (X/y train/test) en un bucket “processed”.
 
@@ -28,14 +18,56 @@ https://www.kaggle.com/datasets/blurredmachine/are-your-employees-burning-out
 
 3. ***Serving:*** la API FastAPI obtiene dinámicamente el modelo más reciente del registro (mapeado por alias), ofrece endpoints de salud, listado de modelos, metadatos y predicciones, además de un endpoint GraphQL espejo de salud y modelos disponibles.
 
-# Conceptos generales importantes
-- **Integración Airflow–MLflow–MinIO:** entender cómo los DAGs interactúan con MinIO (extracción/carga de datos) y cómo se registran métricas, parámetros y artefactos en MLflow es esencial para extender o depurar el pipeline.
+    - Para más detalle sobre el funcionamiento del **Streaming** consultar la [documentación](fastapi/README.md) correspondiente.
 
-- **Reutilización de transformaciones:** los helpers en airflow/plugins/etl/etl.py son el contrato para asegurar que inferencia y entrenamiento compartan el mismo pipeline de features (codificación, escalado, etc.). Cambios aquí impactan en todo el flujo.
+## Servicios
 
-- **Servicio de inferencia desacoplado:** FastAPI actúa como consumer del Model Registry, por lo que cualquier modelo nuevo debe cumplir con el mismo esquema de features y registrarse correctamente para estar disponible vía API.
+- **Airflow:** http://localhost:8080
+- **MLflow:** http://localhost:5001  
+- **MinIO:** http://localhost:9001
+- **API REST:** http://localhost:8800/docs
+- **API GraphQL:** http://localhost:8800/graphql
+- **gRPC:** http://localhost:50051
 
-- **Infraestructura reproducible:** docker-compose.yaml describe dependencias (Postgres para Airflow y MLflow, MinIO como backend S3). Saber levantar el stack completo es crítico para pruebas y demos.
+## Ejecución con Docker Compose
+1. **Levantar todos los servicios:**
+
+    > docker compose --profile all up -d --build
+
+2. **Log In en la [interfaz de Airflow](http://localhost:8080):**
+    - _`User: airflow`_
+    - _`Password: airflow`_
+3. **Ejecutar el DAG para el proceso de ETL (`etl_mlflow`)**
+4. **Luego, correr los DAGs de entrenamiento:**
+    - `train_knn`
+    - `train_lightgbm`
+    - `train_svm`
+5. **Finalizado el entrenamiento, ver las predicciones de `stream_worker` (Streaming):**
+
+    > docker logs -f mlops2_ceia-stream_worker-1
+
+6. **Además, pueden hacerse inferencias manuales por la [API](http://localhost:8800/docs)**
+
+7. **Para detener la ejecución:**
+
+    > docker compose --profile all down -v
+
+### Verificación
+- **Ver los mensajes brutos en Redis:**
+
+    > docker exec -it mlops2_ceia-redis-1 redis-cli
+
+    > xlen mlops_stream
+
+    > xrange mlops_stream - +
+
+- **Ver archivo de predicciones:**
+
+    > docker exec -it mlops2_ceia-stream_worker-1 bash
+
+    > ls /app
+
+    > cat /app/predicciones.csv
 
 # Estructura del Repositorio
 
@@ -45,12 +77,24 @@ La estructura se organiza por responsabilidad del servicio:
 ├── airflow/                  # Contiene la configuración de Airflow (dags/, config/, logs/).
 ├── data/                     # Conjunto de datos base del proyecto.
 │   └── enriched_employee_dataset.csv
-├── dockerfiles/              # Contiene los Dockerfiles para la construcción de cada imagen.
-├── fastapi/                  # Lógica del servidor API REST para el serving (main.py).
-├── .env                      # Variables de entorno (IGNORADO por .gitignore).
+├── dockerfiles/              # Contiene los Dockerfiles para la construcción de cada imagen de servicio.
+│   ├── airflow/
+│   ├── fastapi/
+│   ├── grpc/
+│   ├── mlflow/
+│   └── postgres/
+├── fastapi/                  # Lógica del servidor API REST (Serving - Producción/Despliegue).
+│   ├── fake_data_generator.py # Genera los datos falsos
+│   ├── fake_data_producer.py # Emula las consultas de usuario.
+│   ├── main.py               # Punto de entrada principal de la API.
+│   ├── predicciones.csv      # Almacenamiento del stream de datos
+│   └── stream_worker.py      # Procesamiento asíncrono e ingesta de datos en streaming.
+├── grpc_service/             # Lógica del servidor gRPC (Servicio de baja latencia).
+├── utils/                    # Funciones de utilidad y scripts auxiliares.
 ├── .gitignore
-├── docker-compose.yaml       # Definición y orquestación de los servicios.
-└── README.md
+├── docker-compose.yaml       # Definición y orquestación de los servicios (Airflow, DB, Serving APIs, etc.).
+├── EDA.ipynb                 # Notebooks para el Análisis Exploratorio de Datos.
+└── LICENSE
 ```
 
 ## Carpetas y Archivos clave
@@ -63,3 +107,12 @@ La estructura se organiza por responsabilidad del servicio:
 - **`dockerfiles/` y `docker-compose.yaml`:** definen las imágenes personalizadas y la infraestructura local (Postgres, MinIO, MLflow, Airflow, Fastapi). Es fundamental para levantar todo el stack y reproducir el flujo de MLOps end-to-end.
 
 - **`data/`:** punto de montaje para el dataset enriquecido original que se sube a MinIO en el arranque del entorno.
+
+# Conceptos generales importantes
+- **Integración Airflow–MLflow–MinIO:** entender cómo los DAGs interactúan con MinIO (extracción/carga de datos) y cómo se registran métricas, parámetros y artefactos en MLflow es esencial para extender o depurar el pipeline.
+
+- **Reutilización de transformaciones:** los helpers en airflow/plugins/etl/etl.py son el contrato para asegurar que inferencia y entrenamiento compartan el mismo pipeline de features (codificación, escalado, etc.). Cambios aquí impactan en todo el flujo.
+
+- **Servicio de inferencia desacoplado:** FastAPI actúa como consumer del Model Registry, por lo que cualquier modelo nuevo debe cumplir con el mismo esquema de features y registrarse correctamente para estar disponible vía API.
+
+- **Infraestructura reproducible:** docker-compose.yaml describe dependencias (Postgres para Airflow y MLflow, MinIO como backend S3). Saber levantar el stack completo es crítico para pruebas y demos.
