@@ -22,7 +22,7 @@ ARG CONSTRAINT_URL="https://raw.githubusercontent.com/apache/airflow/constraints
 # Actualizar pip e instalar:
 # - extras necesarios para tu stack (api/celery/postgres/redis)
 # - connexion (req. del Airflow API) con UI de Swagger
-# - tus requirements del proyecto
+# - librerías necesarias (requirements.txt)
 RUN pip install --upgrade pip && \
     pip install --no-cache-dir --constraint "${CONSTRAINT_URL}" \
       "apache-airflow[api,celery,postgres,redis]==${AIRFLOW_VERSION}" \

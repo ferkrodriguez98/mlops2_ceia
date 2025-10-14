@@ -16,5 +16,5 @@ RUN pip install --upgrade pip \
 COPY ./fastapi/ /app/
 
 EXPOSE 8800
-# si querés default (no es obligatorio si usás 'command:' en compose):
+# Default opciontal (no es obligatorio si usás 'command:' en compose):
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8800"]

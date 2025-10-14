@@ -5,7 +5,6 @@ FROM python:3.10-slim
 WORKDIR /app
 
 # Copia el archivo de requisitos e instala las dependencias
-# Esto ayuda a aprovechar el caché de capas de Docker
 COPY dockerfiles/grpc/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
@@ -13,11 +12,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Documenta el puerto en el que escucha el servicio gRPC (50051 es el estándar)
-# NOTA: Esto solo documenta. Para acceso externo, debes usar -p 50051:50051 en el 'docker run'
 EXPOSE 50051
 
 # Define el comando para ejecutar el servidor gRPC de Python
-# Asume que tu script principal es 'server.py'
 CMD ["python", "server.py"]
 
 # TESTING:
