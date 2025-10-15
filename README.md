@@ -53,7 +53,13 @@ https://www.kaggle.com/datasets/blurredmachine/are-your-employees-burning-out
     > docker compose --profile all down -v
 
 ### Verificación
-- **Ver los mensajes brutos en Redis:**
+- **Consultar estado de microservicios:**
+
+    > docker compose ps
+
+    > docker logs fastapi 
+
+- **Ver mensajes en bruto de Redis:**
 
     > docker exec -it mlops2_ceia-redis-1 redis-cli
 
@@ -116,3 +122,8 @@ La estructura se organiza por responsabilidad del servicio:
 - **Servicio de inferencia desacoplado:** FastAPI actúa como consumer del Model Registry, por lo que cualquier modelo nuevo debe cumplir con el mismo esquema de features y registrarse correctamente para estar disponible vía API.
 
 - **Infraestructura reproducible:** docker-compose.yaml describe dependencias (Postgres para Airflow y MLflow, MinIO como backend S3). Saber levantar el stack completo es crítico para pruebas y demos.
+
+
+# LICENCIA
+
+Este proyecto está liberado bajo la **Licencia Apache 2.0**. Los derechos de autor (Copyright) corresponden a **Fermin Rodriguez del Castillo, Alejandro Lloveras, Ezequiel Maudet & Gustavo Rivas (2025)**. Puedes encontrar el texto completo de los términos y condiciones de la licencia en el archivo [LICENSE](LICENSE) en la raíz de este repositorio.
